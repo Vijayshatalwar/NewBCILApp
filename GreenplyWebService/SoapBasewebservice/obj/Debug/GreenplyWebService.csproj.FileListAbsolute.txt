@@ -1,0 +1,249 @@
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\ApplicationInsights.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\csc.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\vbc.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\System.Net.Http.Formatting.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Newtonsoft.Json.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\System.Net.Http.Formatting.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\obj\Debug\GreenplyWebService.csprojResolveAssemblyReference.cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\ApplicationInsights.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\csc.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\vbc.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\System.Net.Http.Formatting.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Newtonsoft.Json.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\bin\System.Net.Http.Formatting.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\obj\Debug\GreenplyWebService.csprojResolveAssemblyReference.cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\ApplicationInsights.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\csc.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\vbc.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\System.Net.Http.Formatting.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Newtonsoft.Json.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\bin\System.Net.Http.Formatting.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\obj\Debug\GreenplyWebService.csprojResolveAssemblyReference.cache
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\APIs And Webservice\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\ApplicationInsights.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\csc.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\vbc.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\System.Net.Http.Formatting.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Newtonsoft.Json.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\bin\System.Net.Http.Formatting.xml
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\obj\Debug\GreenplyWebService.csprojResolveAssemblyReference.cache
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\ApplicationInsights.config
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\csc.exe
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\vbc.exe
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.pdb
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\GreenplyWebService.csproj.AssemblyReference.cache
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\GreenplyWebService.csproj.CoreCompileInputs.cache
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\GreenplyWebService.csproj.CopyComplete
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+D:\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\ApplicationInsights.config
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\csc.exe
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\vbc.exe
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.pdb
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\GreenplyWebService.csproj.AssemblyReference.cache
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\GreenplyWebService.csproj.CoreCompileInputs.cache
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\Greenply.A29ABFF7.Up2Date
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+D:\vijay.shatalwar - One Drive\OneDrive - Greenply Industries Ltd\D drive\GreenPlyCode-Client-master - Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\ApplicationInsights.config
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\csc.exe
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\vbc.exe
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\SoapBasewebservice.pdb
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\GreenplyWebService.csproj.AssemblyReference.cache
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\GreenplyWebService.csproj.CoreCompileInputs.cache
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\Greenply.A29ABFF7.Up2Date
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+D:\New BCIL  app\Copy\GreenplyWebService\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb

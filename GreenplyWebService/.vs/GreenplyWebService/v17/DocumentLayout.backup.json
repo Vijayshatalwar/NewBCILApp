@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\New BCIL  app\\Copy\\GreenplyWebService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{915E2BD7-8D68-4C81-961A-247222E7D07B}|SoapBasewebservice\\GreenplyWebService.csproj|d:\\new bcil  app\\copy\\greenplywebservice\\soapbasewebservice\\greenplywebservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{915E2BD7-8D68-4C81-961A-247222E7D07B}|SoapBasewebservice\\GreenplyWebService.csproj|solutionrelative:soapbasewebservice\\greenplywebservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{915E2BD7-8D68-4C81-961A-247222E7D07B}|SoapBasewebservice\\GreenplyWebService.csproj|D:\\New BCIL  app\\Copy\\GreenplyWebService\\soapbasewebservice\\applicationinsights.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{915E2BD7-8D68-4C81-961A-247222E7D07B}|SoapBasewebservice\\GreenplyWebService.csproj|solutionrelative:soapbasewebservice\\applicationinsights.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{915E2BD7-8D68-4C81-961A-247222E7D07B}|SoapBasewebservice\\GreenplyWebService.csproj|D:\\New BCIL  app\\Copy\\GreenplyWebService\\soapbasewebservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{915E2BD7-8D68-4C81-961A-247222E7D07B}|SoapBasewebservice\\GreenplyWebService.csproj|solutionrelative:soapbasewebservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationInsights.config",
+              "DocumentMoniker": "D:\\New BCIL  app\\Copy\\GreenplyWebService\\SoapBasewebservice\\ApplicationInsights.config",
+              "RelativeDocumentMoniker": "SoapBasewebservice\\ApplicationInsights.config",
+              "ToolTip": "D:\\New BCIL  app\\Copy\\GreenplyWebService\\SoapBasewebservice\\ApplicationInsights.config",
+              "RelativeToolTip": "SoapBasewebservice\\ApplicationInsights.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-07T07:25:10.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\New BCIL  app\\Copy\\GreenplyWebService\\SoapBasewebservice\\Web.config",
+              "RelativeDocumentMoniker": "SoapBasewebservice\\Web.config",
+              "ToolTip": "D:\\New BCIL  app\\Copy\\GreenplyWebService\\SoapBasewebservice\\Web.config",
+              "RelativeToolTip": "SoapBasewebservice\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-07T07:05:48.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GreenplyWebService.asmx.cs",
+              "DocumentMoniker": "D:\\New BCIL  app\\Copy\\GreenplyWebService\\SoapBasewebservice\\GreenplyWebService.asmx.cs",
+              "RelativeDocumentMoniker": "SoapBasewebservice\\GreenplyWebService.asmx.cs",
+              "ToolTip": "D:\\New BCIL  app\\Copy\\GreenplyWebService\\SoapBasewebservice\\GreenplyWebService.asmx.cs",
+              "RelativeToolTip": "SoapBasewebservice\\GreenplyWebService.asmx.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T07:05:48.692Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

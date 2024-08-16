@@ -1,0 +1,33 @@
+﻿<Window x:Class="GREENPLY.CustomMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CustomMessageBox" AllowsTransparency="True" WindowState="Normal" WindowStyle="None" ResizeMode="NoResize" PreviewKeyDown="Window_PreviewKeyDown" Background="Transparent" WindowStartupLocation="CenterScreen" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/xaml/behaviors" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" SizeToContent="WidthAndHeight">
+    <Border CornerRadius="25" HorizontalAlignment="Center" VerticalAlignment="Center" MinHeight="100" MinWidth="250" Background="#FFEBEBEB">
+        <StackPanel MaxHeight="400" MinHeight="50" MaxWidth="400" Margin="8" >
+            <Border BorderBrush="Black" BorderThickness="0,2" VerticalAlignment="Top" HorizontalAlignment="Center">
+                <Label FontFamily="Arial" FontWeight="Bold" Foreground="Navy" FontSize="13" FontStretch="Normal" Name="lblCaption" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            </Border>
+
+            <StackPanel Orientation="Horizontal" MaxHeight="300">
+                <Image Name="imgIcon" Stretch="UniformToFill" Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center"  />
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel >
+                        <!--<Label FontFamily="Arial Rounded MT" Margin="0,10" Foreground="Black" FontSize="13" FontStretch="Normal" FontWeight="Normal" Name="lblMessage" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />-->
+                        <RichTextBox FontFamily="Arial Rounded MT" Height="Auto" Margin="15,10,0,10" MaxWidth="300" Foreground="Black" FontSize="13" FontStretch="Normal" FontWeight="Normal" Name="rtbMessage" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" AllowDrop="False" AutoWordSelection="True" Background="{x:Null}" Focusable="False" IsReadOnly="True" IsTabStop="False" IsUndoEnabled="False" ToolTip="Message" BorderThickness="0" />
+                        <!--<TextBlock Name="tbMessage" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontSize="14" FontFamily="Arial Rounded MT" SnapsToDevicePixels="True"><TextBlock.Background><SolidColorBrush /></TextBlock.Background></TextBlock>-->
+                        <StackPanel.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black" Direction="320" ShadowDepth="15" Opacity=".5" Softness="9" />
+                        </StackPanel.BitmapEffect>
+                    </StackPanel>
+                </ScrollViewer>
+            </StackPanel>
+            <UniformGrid Rows="1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Name="ugOK">
+                <Button Margin="0,5,0,0" FontSize="12" Content="OK"  x:Name="btnOk" TabIndex="5" Click="btnOk_Click" Height="31" />
+            </UniformGrid>
+            <UniformGrid Rows="1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Visibility="Collapsed" Name="ugYesNo">
+                <Button Margin="0,5,5,0" FontSize="12" Content="Yes" x:Name="btnYes" TabIndex="5" Click="btnYes_Click" Height="31" />
+                <Button Margin="5,5,0,0" FontSize="12" Content="No" x:Name="btnNo" TabIndex="5" Click="btnNo_Click" Height="31" />
+            </UniformGrid>
+        </StackPanel>
+    </Border>
+</Window>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Krish\Krish Greenply\GREENPLY - Track &amp; Trace\ServiceHost</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>02/28/2019 15:45:52</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>02/28/2019 15:45:52</publishTime>
+    </File>
+    <File Include="bin/BCIL.Utility.dll">
+      <publishTime>02/24/2019 22:46:37</publishTime>
+    </File>
+    <File Include="bin/Csla.dll">
+      <publishTime>09/17/2018 10:57:07</publishTime>
+    </File>
+    <File Include="bin/DBUtility.dll">
+      <publishTime>09/19/2017 11:36:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>02/28/2019 15:45:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>02/28/2019 15:45:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>02/28/2019 15:45:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>02/28/2019 15:45:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>02/28/2019 15:45:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>02/28/2019 15:45:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>02/28/2019 15:45:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>02/28/2019 15:45:36</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/02/2013 12:10:10</publishTime>
+    </File>
+    <File Include="bin/NLog.dll">
+      <publishTime>11/15/2018 11:22:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>02/28/2019 15:45:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>02/28/2019 15:45:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>02/28/2019 15:45:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>02/28/2019 15:45:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>02/28/2019 15:45:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>02/28/2019 15:45:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>02/28/2019 15:45:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>02/28/2019 15:45:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>02/28/2019 15:45:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>02/28/2019 15:45:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>02/28/2019 15:45:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>02/28/2019 15:45:35</publishTime>
+    </File>
+    <File Include="bin/SoapBasewebservice.dll">
+      <publishTime>02/17/2022 18:30:04</publishTime>
+    </File>
+    <File Include="bin/SoapBasewebservice.pdb">
+      <publishTime>02/17/2022 18:30:04</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/07/2013 13:09:16</publishTime>
+    </File>
+    <File Include="ClsLoadPlan.cs">
+      <publishTime>03/07/2019 10:48:55</publishTime>
+    </File>
+    <File Include="ClsLoadPlanSerialNo.cs">
+      <publishTime>03/07/2019 10:48:11</publishTime>
+    </File>
+    <File Include="ClsResponse.cs">
+      <publishTime>03/05/2019 12:49:01</publishTime>
+    </File>
+    <File Include="CslaLoadPlan.cs">
+      <publishTime>03/06/2019 17:24:07</publishTime>
+    </File>
+    <File Include="CslaLoadPlanSerialNo.cs">
+      <publishTime>03/06/2019 17:27:27</publishTime>
+    </File>
+    <File Include="GreenplyWebService.asmx">
+      <publishTime>09/07/2020 07:13:19</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/28/2019 16:04:56</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.js">
+      <publishTime>02/28/2019 15:45:53</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.min.js">
+      <publishTime>02/28/2019 15:45:53</publishTime>
+    </File>
+    <File Include="SoapServices.asmx">
+      <publishTime>02/28/2019 15:47:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/18/2021 11:11:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

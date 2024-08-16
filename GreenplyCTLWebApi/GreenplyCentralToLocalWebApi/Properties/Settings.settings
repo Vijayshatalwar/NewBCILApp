@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GreenplyCentralToLocalWebApi.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LocationCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3020</Value>
+    </Setting>
+    <Setting Name="POType" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">V</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

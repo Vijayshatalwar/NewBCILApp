@@ -1,0 +1,605 @@
+<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://localhost:64646/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://localhost:64646/">
+<wsdl:types>
+<s:schema elementFormDefault="qualified" targetNamespace="http://localhost:64646/">
+<s:element name="GetSAPMatMasterData">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="objMat" type="tns:ListMatMasterDetails"/>
+<s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Pswd" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="ListMatMasterDetails">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="LoadMatMaster" type="tns:ArrayOfClsGetSAPMaterialMaster"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsGetSAPMaterialMaster">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsGetSAPMaterialMaster" nillable="true" type="tns:ClsGetSAPMaterialMaster"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsGetSAPMaterialMaster">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="mPRODUCT" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mMATCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mMATDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mTHICKNESS" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mTHICKNESSDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mSIZE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mGRADE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mGRADEDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mCATEGORY" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mCATEGORYDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mMATGROUP" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mMATGROUPDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mDESIGNNO" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mDESIGNDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mFINISHCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mFINISHDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mVISIONPANELCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mVISIONPANELDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mLIPPINGCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mLIPPINGDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mUOM" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPMatMasterDataResponse">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="GetSAPMatMasterDataResult" type="tns:clsResponseMatList"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="clsResponseMatList">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="ResopseMatMaster" type="tns:ArrayOfClsMatMasterResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsMatMasterResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsMatMasterResponse" nillable="true" type="tns:ClsMatMasterResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsMatMasterResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="MatCode" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPRejMasterData">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="objRej" type="tns:ListRejMasterDetails"/>
+<s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Pswd" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="ListRejMasterDetails">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="LoadRejMaster" type="tns:ArrayOfClsGetSAPRejectionMaster"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsGetSAPRejectionMaster">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsGetSAPRejectionMaster" nillable="true" type="tns:ClsGetSAPRejectionMaster"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsGetSAPRejectionMaster">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="mREJCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="mREJDESC" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPRejMasterDataResponse">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="GetSAPRejMasterDataResult" type="tns:clsResponseRejList"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="clsResponseRejList">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="ResopseRejMaster" type="tns:ArrayOfClsRejMasterResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsRejMasterResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsRejMasterResponse" nillable="true" type="tns:ClsRejMasterResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsRejMasterResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="RejCode" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPPurchaseOrderData">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="objPO" type="tns:ListPurchaseOrderDetails"/>
+<s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Pswd" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="ListPurchaseOrderDetails">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="LoadPurchaseOrderData" type="tns:ArrayOfClsGetPurchaseOrderData"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsGetPurchaseOrderData">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsGetPurchaseOrderData" nillable="true" type="tns:ClsGetPurchaseOrderData"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsGetPurchaseOrderData">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="tLOCATIONCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tPONUMBER" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tVENDORCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tVENDORNAME" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tMATCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tMATDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tPOQTY" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tPODATE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tPOLocType" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPPurchaseOrderDataResponse">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="GetSAPPurchaseOrderDataResult" type="tns:clsResponsePurchaseOrderList"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="clsResponsePurchaseOrderList">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="ResponsePurchaseOrderData" type="tns:ArrayOfClsPurchaseOrderResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsPurchaseOrderResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsPurchaseOrderResponse" nillable="true" type="tns:ClsPurchaseOrderResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsPurchaseOrderResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="PurchaseOrderNumber" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPPurchaseOrderReturnData">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="objPO" type="tns:ListPurchaseOrderReturnDetails"/>
+<s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Pswd" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="ListPurchaseOrderReturnDetails">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="LoadPurchaseOrderReturnData" type="tns:ArrayOfClsGetPurchaseOrderReturnData"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsGetPurchaseOrderReturnData">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsGetPurchaseOrderReturnData" nillable="true" type="tns:ClsGetPurchaseOrderReturnData"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsGetPurchaseOrderReturnData">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="tLOCATIONCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tRETURNPONUMBER" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tVENDORCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tVENDORNAME" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tMATCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tMATDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tPOReturnQTY" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tPOLocType" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPPurchaseOrderReturnDataResponse">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="GetSAPPurchaseOrderReturnDataResult" type="tns:clsResponsePurchaseOrderReturnList"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="clsResponsePurchaseOrderReturnList">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="ResponsePurchaseOrderReturnData" type="tns:ArrayOfClsPurchaseOrderReturnResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsPurchaseOrderReturnResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsPurchaseOrderReturnResponse" nillable="true" type="tns:ClsPurchaseOrderReturnResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsPurchaseOrderReturnResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="PurchaseOrderNumber" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPDeliveryOrderData">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="objPO" type="tns:ListDeliveryOrderDetails"/>
+<s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Pswd" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="ListDeliveryOrderDetails">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="LoadDeliveryOrderData" type="tns:ArrayOfClsGetDeliveryOrderData"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsGetDeliveryOrderData">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsGetDeliveryOrderData" nillable="true" type="tns:ClsGetDeliveryOrderData"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsGetDeliveryOrderData">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="tLOCATIONCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tDELIVERYORDERNO" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tCUSTOMERCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tCUSTOMERNAME" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tMATCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tMATDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tTOLOCATIONCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tDOQTY" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tDODATE" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPDeliveryOrderDataResponse">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="GetSAPDeliveryOrderDataResult" type="tns:clsResponseDeliveryOrderList"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="clsResponseDeliveryOrderList">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="ResponseDeliveryOrderData" type="tns:ArrayOfClsDeliveryOrderResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsDeliveryOrderResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsDeliveryOrderResponse" nillable="true" type="tns:ClsDeliveryOrderResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsDeliveryOrderResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="DeliveryOrderNumber" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPSalesReturnData">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="objPO" type="tns:ListSalesReturnDetails"/>
+<s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Pswd" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="ListSalesReturnDetails">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="LoadSalesReturnData" type="tns:ArrayOfClsGetSalesReturnData"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsGetSalesReturnData">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsGetSalesReturnData" nillable="true" type="tns:ClsGetSalesReturnData"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsGetSalesReturnData">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="tLOCATIONCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tSALESRETURNNO" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tCUSTOMERCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tCUSTOMERNAME" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tMATCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tMATDESC" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tRETURNQTY" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPSalesReturnDataResponse">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="GetSAPSalesReturnDataResult" type="tns:clsResponseSalesReturnList"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="clsResponseSalesReturnList">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="ResponseSalesReturnData" type="tns:ArrayOfClsSalesReturnResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsSalesReturnResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsSalesReturnResponse" nillable="true" type="tns:ClsSalesReturnResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsSalesReturnResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="SalesReturnNumber" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPQualityInspectionData">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="objPO" type="tns:ListQualityInspectionDetails"/>
+<s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Pswd" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="ListQualityInspectionDetails">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="LoadQualityInspectionData" type="tns:ArrayOfClsGetQualityInspectionData"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsGetQualityInspectionData">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsGetQualityInspectionData" nillable="true" type="tns:ClsGetQualityInspectionData"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsGetQualityInspectionData">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="tLOCATIONCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tPONO" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tMATCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tQRCODE" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tMIGONO" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tINSPECTIONLOTNO" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tQCSTATUS" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tQCBY" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="tQCON" type="s:string"/>
+</s:sequence>
+</s:complexType>
+<s:element name="GetSAPQualityInspectionDataResponse">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="GetSAPQualityInspectionDataResult" type="tns:clsResponseQuanlityInspectionList"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="clsResponseQuanlityInspectionList">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="ResponseQuanlityInspectionData" type="tns:ArrayOfClsQuanlityInspectionResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ArrayOfClsQuanlityInspectionResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="unbounded" name="ClsQuanlityInspectionResponse" nillable="true" type="tns:ClsQuanlityInspectionResponse"/>
+</s:sequence>
+</s:complexType>
+<s:complexType name="ClsQuanlityInspectionResponse">
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="PONumber" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:schema>
+</wsdl:types>
+<wsdl:message name="GetSAPMatMasterDataSoapIn">
+<wsdl:part name="parameters" element="tns:GetSAPMatMasterData"/>
+</wsdl:message>
+<wsdl:message name="GetSAPMatMasterDataSoapOut">
+<wsdl:part name="parameters" element="tns:GetSAPMatMasterDataResponse"/>
+</wsdl:message>
+<wsdl:message name="GetSAPRejMasterDataSoapIn">
+<wsdl:part name="parameters" element="tns:GetSAPRejMasterData"/>
+</wsdl:message>
+<wsdl:message name="GetSAPRejMasterDataSoapOut">
+<wsdl:part name="parameters" element="tns:GetSAPRejMasterDataResponse"/>
+</wsdl:message>
+<wsdl:message name="GetSAPPurchaseOrderDataSoapIn">
+<wsdl:part name="parameters" element="tns:GetSAPPurchaseOrderData"/>
+</wsdl:message>
+<wsdl:message name="GetSAPPurchaseOrderDataSoapOut">
+<wsdl:part name="parameters" element="tns:GetSAPPurchaseOrderDataResponse"/>
+</wsdl:message>
+<wsdl:message name="GetSAPPurchaseOrderReturnDataSoapIn">
+<wsdl:part name="parameters" element="tns:GetSAPPurchaseOrderReturnData"/>
+</wsdl:message>
+<wsdl:message name="GetSAPPurchaseOrderReturnDataSoapOut">
+<wsdl:part name="parameters" element="tns:GetSAPPurchaseOrderReturnDataResponse"/>
+</wsdl:message>
+<wsdl:message name="GetSAPDeliveryOrderDataSoapIn">
+<wsdl:part name="parameters" element="tns:GetSAPDeliveryOrderData"/>
+</wsdl:message>
+<wsdl:message name="GetSAPDeliveryOrderDataSoapOut">
+<wsdl:part name="parameters" element="tns:GetSAPDeliveryOrderDataResponse"/>
+</wsdl:message>
+<wsdl:message name="GetSAPSalesReturnDataSoapIn">
+<wsdl:part name="parameters" element="tns:GetSAPSalesReturnData"/>
+</wsdl:message>
+<wsdl:message name="GetSAPSalesReturnDataSoapOut">
+<wsdl:part name="parameters" element="tns:GetSAPSalesReturnDataResponse"/>
+</wsdl:message>
+<wsdl:message name="GetSAPQualityInspectionDataSoapIn">
+<wsdl:part name="parameters" element="tns:GetSAPQualityInspectionData"/>
+</wsdl:message>
+<wsdl:message name="GetSAPQualityInspectionDataSoapOut">
+<wsdl:part name="parameters" element="tns:GetSAPQualityInspectionDataResponse"/>
+</wsdl:message>
+<wsdl:portType name="SoapServicesSoap">
+<wsdl:operation name="GetSAPMatMasterData">
+<wsdl:input message="tns:GetSAPMatMasterDataSoapIn"/>
+<wsdl:output message="tns:GetSAPMatMasterDataSoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="GetSAPRejMasterData">
+<wsdl:input message="tns:GetSAPRejMasterDataSoapIn"/>
+<wsdl:output message="tns:GetSAPRejMasterDataSoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="GetSAPPurchaseOrderData">
+<wsdl:input message="tns:GetSAPPurchaseOrderDataSoapIn"/>
+<wsdl:output message="tns:GetSAPPurchaseOrderDataSoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="GetSAPPurchaseOrderReturnData">
+<wsdl:input message="tns:GetSAPPurchaseOrderReturnDataSoapIn"/>
+<wsdl:output message="tns:GetSAPPurchaseOrderReturnDataSoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="GetSAPDeliveryOrderData">
+<wsdl:input message="tns:GetSAPDeliveryOrderDataSoapIn"/>
+<wsdl:output message="tns:GetSAPDeliveryOrderDataSoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="GetSAPSalesReturnData">
+<wsdl:input message="tns:GetSAPSalesReturnDataSoapIn"/>
+<wsdl:output message="tns:GetSAPSalesReturnDataSoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="GetSAPQualityInspectionData">
+<wsdl:input message="tns:GetSAPQualityInspectionDataSoapIn"/>
+<wsdl:output message="tns:GetSAPQualityInspectionDataSoapOut"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="SoapServicesSoap" type="tns:SoapServicesSoap">
+<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="GetSAPMatMasterData">
+<soap:operation soapAction="http://localhost:64646/GetSAPMatMasterData" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPRejMasterData">
+<soap:operation soapAction="http://localhost:64646/GetSAPRejMasterData" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPPurchaseOrderData">
+<soap:operation soapAction="http://localhost:64646/GetSAPPurchaseOrderData" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPPurchaseOrderReturnData">
+<soap:operation soapAction="http://localhost:64646/GetSAPPurchaseOrderReturnData" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPDeliveryOrderData">
+<soap:operation soapAction="http://localhost:64646/GetSAPDeliveryOrderData" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPSalesReturnData">
+<soap:operation soapAction="http://localhost:64646/GetSAPSalesReturnData" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPQualityInspectionData">
+<soap:operation soapAction="http://localhost:64646/GetSAPQualityInspectionData" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:binding name="SoapServicesSoap12" type="tns:SoapServicesSoap">
+<soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="GetSAPMatMasterData">
+<soap12:operation soapAction="http://localhost:64646/GetSAPMatMasterData" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPRejMasterData">
+<soap12:operation soapAction="http://localhost:64646/GetSAPRejMasterData" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPPurchaseOrderData">
+<soap12:operation soapAction="http://localhost:64646/GetSAPPurchaseOrderData" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPPurchaseOrderReturnData">
+<soap12:operation soapAction="http://localhost:64646/GetSAPPurchaseOrderReturnData" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPDeliveryOrderData">
+<soap12:operation soapAction="http://localhost:64646/GetSAPDeliveryOrderData" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPSalesReturnData">
+<soap12:operation soapAction="http://localhost:64646/GetSAPSalesReturnData" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetSAPQualityInspectionData">
+<soap12:operation soapAction="http://localhost:64646/GetSAPQualityInspectionData" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="SoapServices">
+<wsdl:port name="SoapServicesSoap" binding="tns:SoapServicesSoap">
+<soap:address location="http://localhost:64646/GreenplyWebService.asmx"/>
+</wsdl:port>
+<wsdl:port name="SoapServicesSoap12" binding="tns:SoapServicesSoap12">
+<soap12:address location="http://localhost:64646/GreenplyWebService.asmx"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

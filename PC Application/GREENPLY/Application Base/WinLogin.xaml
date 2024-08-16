@@ -1,0 +1,88 @@
+﻿<Window xmlns:my="clr-namespace:GREENPLY"  x:Class="GREENPLY.WinLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       Width="572" Height="271" WindowStyle="None" Background="{x:Null}" Foreground="#014051" ShowInTaskbar="True"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"  AllowsTransparency="True"
+        xmlns:d="http://schemas.microsoft.com/xaml/behaviors" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Loaded="Window_Loaded"   KeyboardNavigation.TabNavigation="Cycle">
+
+        <Grid Height="280">
+
+        <Border CornerRadius="10,10,10,10" BorderThickness="1,1,0,0" BorderBrush="#9f1f14" Margin="0,-2,19,49" >
+            <Border.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="Green" Offset="1"/>
+                    <GradientStop Color="Yellow" Offset="0"/>
+                </RadialGradientBrush>
+
+                <!--<LinearGradientBrush EndPoint="0.799,1.021" StartPoint="-0.085,-0.213">
+                    <GradientStop Color="#00A3CC" Offset="1"/>
+                    <GradientStop Color="#00A3CC" Offset="0"/>
+                </LinearGradientBrush>-->
+
+            </Border.Background>
+
+            <Grid Margin=" 10,0" Height="213">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="380" />
+                    <ColumnDefinition Width="177*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="24" />
+                    <RowDefinition Height="256*" />
+                </Grid.RowDefinitions>
+                <TextBlock Opacity="1"  
+                             FontFamily="Arial" FontSize="20" FontStretch="Normal" 
+                             FontWeight="Light"    TextWrapping="Wrap" Height="27" VerticalAlignment="Top" TextAlignment="Center" Margin="2,2,1,0" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                    <Run Foreground="White"  Text=" GREENPLY - Login Window"/>
+                  <TextBlock.BitmapEffect>
+                        <DropShadowBitmapEffect Color="Black" Direction="320" ShadowDepth="15" Opacity=".5" Softness="9" />
+                    </TextBlock.BitmapEffect>
+
+                </TextBlock>
+                <!--<my:Logo_Cube HorizontalAlignment="Left" x:Name="logo_Cube1" VerticalAlignment="Top" Margin="-98,7,0,0" Height="146" Width="386" Grid.RowSpan="2" />-->
+                <Label Name="LblLicInfo" HorizontalContentAlignment="Center" FontFamily="Arial" FontSize="13" FontStretch="Normal" Visibility="Hidden" Foreground="White" ></Label>
+                <Grid Margin="72,7,-8,-10" Grid.ColumnSpan="2" Grid.RowSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150" />
+                        <ColumnDefinition Width="300*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="29" />
+                        <RowDefinition Height="29" />
+                        <RowDefinition Height="2" />
+                        <RowDefinition Height="32" />
+                        <RowDefinition Height="36*" />
+                    </Grid.RowDefinitions>
+                    <Label Foreground="White" HorizontalAlignment="Right"  VerticalAlignment="Center" FontWeight="bold" 
+                           Content="User Id | Code:" Name="Label1" Grid.Row="1" Margin="0,16,270,0" Grid.ColumnSpan="2" />
+                   
+                    <TextBox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Text="" VerticalAlignment="Center" Name="txtUserId"  
+                             Margin="56,14,0,27" Width="201" Grid.RowSpan="2" CharacterCasing="Normal" TabIndex="0"></TextBox>
+                    <Label Foreground="White" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="bold" Content="Password:" Name="Label2" Margin="0,8,270,26" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+                    <PasswordBox Grid.Row="2"  HorizontalAlignment="Left" VerticalAlignment="Top" PasswordChar="*" Grid.Column="1" Name="txtPassword" TabIndex="1"
+                                 Width="201" KeyDown="txtPassword_KeyDown" PreviewKeyUp="txtPassword_PreviewKeyUp" Margin="56,7,0,0" Grid.RowSpan="2" FontSize="14"></PasswordBox>
+                    <!--<Label Content="Plant Code:" FontWeight="bold" Foreground="White" HorizontalAlignment="Right" Margin="0,0,1,16" Name="label3" VerticalAlignment="Center" Grid.Row="5" />
+                    <ComboBox Foreground="Black" HorizontalAlignment="Left" IsEditable="False" ItemsSource="{Binding}" Margin="0,0,0,13" Name="cmbPlantCode" SnapsToDevicePixels="True" Grid.Column="1" Grid.Row="5" Width="178" />-->
+
+                    <Button Background="Transparent" Foreground="White" Width="90" FontWeight="Bold" HorizontalAlignment="Left"  Grid.Column="1" TabIndex="3"
+                            Grid.Row="5" Content="Login" IsCancel="False" x:Name="btnLogin" Click="btnLogin_Click"  Height="35" Margin="62,22,0,34" Grid.RowSpan="2"></Button>
+                    <Button Foreground="White" Grid.Row="5" Background="Transparent" FontWeight="Bold" Grid.Column="1" Content="Exit" IsCancel="False" TabIndex="4"
+                            x:Name="btnExit" Click="btnExit_Click" Margin="0,22,67,34" Height="35" HorizontalAlignment="Right" Width="90" Grid.RowSpan="2" />
+                    <TextBlock Margin="-40,26,40,10" Visibility="Visible" Grid.Row="6"> <Hyperlink Name="hplChangePWD" Click="Hyperlink_Click"  Foreground="White"   >
+                        Change Password
+                    </Hyperlink></TextBlock>
+                    <Label Content="Location Code | Type:" FontWeight="bold" Foreground="White" HorizontalAlignment="Right" Margin="0,13,270,26" Name="label3" VerticalAlignment="Center" Grid.Row="3" Grid.ColumnSpan="2" Grid.RowSpan="3" />
+                    <TextBox HorizontalAlignment="Left" Margin="56,11,0,25" Name="txtPlantCode" IsEnabled="True"  VerticalAlignment="Center" TabIndex="2"
+                             Width="201" Grid.Column="1" Grid.Row="3" Grid.RowSpan="3" TextAlignment="Left" VerticalContentAlignment="Center" />
+                    <Image Grid.Row="1" Height="109" HorizontalAlignment="Left" Margin="-76,14,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="160" Grid.RowSpan="5" Source="/GREENPLY;component/images/Logos-01%20%281%29.png"/>
+                </Grid>
+            </Grid>
+         
+        </Border>
+    </Grid>
+</Window>

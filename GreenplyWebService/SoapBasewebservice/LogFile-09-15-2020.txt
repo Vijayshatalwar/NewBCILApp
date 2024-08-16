@@ -1,0 +1,71 @@
+Load SAP Material Master -- No of Records Count - 2 at 15-09-2020 17:46:14
+Load Material Master Record No. - 1==>,HI12345_2,,,,,,,,,,,,,,
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE MatCode = @MatCode at 15-09-2020 17:46:49
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 15-09-2020 17:46:55
+Load SAP Material Master -- No of Records Count - 2 at 15-09-2020 17:51:09
+Load Material Master Record No. - 1==>,HI12345_2,,,,,,,,,,,,,,
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE MatCode = @MatCode at 15-09-2020 17:51:12
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 15-09-2020 17:51:15
+Load SAP Material Master Data - Record 1 ==> HI12345_2 Saved successfully at 15-09-2020 17:51:18
+Load Material 2 ==> System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GreenplyWebService.SoapServices.GetSAPMatMasterData(ListMatMasterDetails objMat, String UserName, String Pswd) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\GreenplyWebService.asmx.cs:line 74 at 15-09-2020 17:51:21
+Load SAP Material Master -- No of Records Count - 2 at 15-09-2020 17:52:00
+Load Material Master Record No. - 1==>,HI12345_2,,,,,,,,,,,,,,
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE MatCode = @MatCode at 15-09-2020 17:52:14
+Update SAP Material Master Query =>  UPDATE [dbo].[mMaterialMaster] 
+ SET [Product] = @Product, [MatDescription] = @MatDesc, [Thickness] = @MatThickness, [Size] =  @MatSize, [Grade] = @MatGrade,
+ [GradeDescription] = @GradeDesc, [Category] = @Category, [CategoryDescription] = @CategoryDesc,
+ [MatGroup] = @MatGroup, [MatGroupDescription] = @MatGroupDesc, [DesignNo] = @DesignNo, [DesignDescription] = @DesignDesc,
+ [FinishCode] = @FinishCode, [FinishDescription] = @FinishDesc, [UOM] = @UOM, [UpdatedOn] = GETDATE(), [UpdatedBy] = 'WebService'
+ WHERE MatCode = @MatCode 
+ at 15-09-2020 17:52:21
+Load SAP Material Master Data - Record 1 ==> HI12345_2 Saved successfully at 15-09-2020 17:52:25
+Load SAP Material Master -- No of Records Count - 2 at 15-09-2020 18:04:36
+Load Material Master Record No. - 1==>,HI12345_2,,,,,,,,,,,,,,
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE MatCode = @MatCode at 15-09-2020 18:04:45
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 15-09-2020 18:04:46
+Load SAP Material Master Data - Record 1 ==> HI12345_2 Saved successfully at 15-09-2020 18:04:47
+Load SAP Material Master -- No of Records Count - 2 at 15-09-2020 18:06:09
+Load Material Master Record No. - 0==>,HI12345,,,,,,,,,,,,,,
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE MatCode = @MatCode at 15-09-2020 18:06:12
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 15-09-2020 18:06:16
+Load SAP Material Master Data - Record 0 ==> HI12345 Saved successfully at 15-09-2020 18:06:25
+Load Material Master Record No. - 1==>,HI12345_2,,,,,,,,,,,,,,
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE MatCode = @MatCode at 15-09-2020 18:06:32
+Update SAP Material Master Query =>  UPDATE [dbo].[mMaterialMaster] 
+ SET [Product] = @Product, [MatDescription] = @MatDesc, [Thickness] = @MatThickness, [Size] =  @MatSize, [Grade] = @MatGrade,
+ [GradeDescription] = @GradeDesc, [Category] = @Category, [CategoryDescription] = @CategoryDesc,
+ [MatGroup] = @MatGroup, [MatGroupDescription] = @MatGroupDesc, [DesignNo] = @DesignNo, [DesignDescription] = @DesignDesc,
+ [FinishCode] = @FinishCode, [FinishDescription] = @FinishDesc, [UOM] = @UOM, [UpdatedOn] = GETDATE(), [UpdatedBy] = 'WebService'
+ WHERE MatCode = @MatCode 
+ at 15-09-2020 18:06:34
+Load SAP Material Master Data - Record 1 ==> HI12345_2 Saved successfully at 15-09-2020 18:06:54

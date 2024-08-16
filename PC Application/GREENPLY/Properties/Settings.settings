@@ -1,0 +1,87 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GREENPLY.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LocalFolderPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Administrator\Documents\GreenplyReports\</Value>
+    </Setting>
+    <Setting Name="ExistingQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.105</Value>
+    </Setting>
+    <Setting Name="ExistingQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+    <Setting Name="ServiceUserID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BARCODE</Value>
+    </Setting>
+    <Setting Name="ServiceUserPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">barcode@123</Value>
+    </Setting>
+    <Setting Name="ExistingStackQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.105</Value>
+    </Setting>
+    <Setting Name="ExistingStackQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+    <Setting Name="VendorQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.105</Value>
+    </Setting>
+    <Setting Name="VendorQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+    <Setting Name="PrintingLocationType" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">HUB</Value>
+    </Setting>
+    <Setting Name="PrintingSection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3010_HUB</Value>
+    </Setting>
+    <Setting Name="PrintMaterialType1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TRADING PLY</Value>
+    </Setting>
+    <Setting Name="PrintMaterialType2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TRADING DOOR</Value>
+    </Setting>
+    <Setting Name="QRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.105</Value>
+    </Setting>
+    <Setting Name="QRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+    <Setting Name="UseSMTP" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SMTPServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://outlook.office365.com/ews/exchange.asmx</Value>
+    </Setting>
+    <Setting Name="SMTPPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="SMTPUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">qrcode@greenply.com</Value>
+    </Setting>
+    <Setting Name="SMTPPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Qrc0d@321</Value>
+    </Setting>
+    <Setting Name="ReceiverEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">krish.kashyap@barcodeindia.com</Value>
+    </Setting>
+    <Setting Name="SenderEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">qrcode@greenply.com</Value>
+    </Setting>
+    <Setting Name="SMTPSubject" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">QR CODE GENERATED - KOLKATA HUB</Value>
+    </Setting>
+    <Setting Name="ProxyIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.20.4</Value>
+    </Setting>
+    <Setting Name="ProxyPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">8080</Value>
+    </Setting>
+    <Setting Name="UseProxy" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="VendorSMTPSubject" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">QR CODE PRINTED - KOLKATA HUB - PLY</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

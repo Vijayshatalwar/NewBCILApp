@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GreenplyLocalToCentralWebApi.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PrintMaterialType1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TRADING PLY</Value>
+    </Setting>
+    <Setting Name="PrintingLocationType" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">HUB</Value>
+    </Setting>
+    <Setting Name="LocationCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3020</Value>
+    </Setting>
+    <Setting Name="PrintMaterialType2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PrintMaterialType3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PrintMaterialType4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PrintMaterialType5" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PrintingSection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3020_HUB</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

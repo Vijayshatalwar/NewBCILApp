@@ -1,0 +1,6 @@
+08-08-2024 11:56:54:383: Scheduler :: Initializing .......
+08-08-2024 11:56:54:589: Data Schedular :: Central connection Data Source=10.1.1.214;Initial Catalog=GREENPLY_QRCODE;User ID=sa;Password=del@dmin@123;connection timeout=0
+08-08-2024 11:56:54:590: Scheduler :: Loading   Successfull...
+08-08-2024 11:57:03:051: Central Data Scheduler : Sending Central To SAP Label Printing Data : Sending started 
+08-08-2024 11:57:04:428: DataScheduler : GetStockDetailsToSAPPost :: ConnectionString :: Data Source=10.1.1.214;Initial Catalog=GREENPLY_QRCODE;User ID=sa;Password=del@dmin@123;connection timeout=0
+08-08-2024 11:57:04:680: DataScheduler : GetStockDetailsToSAPPost : Total No. of Records Found - 0 of Production Data

@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="GREENPLY.UserControls.Dashboard.UCDashboard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/xaml/behaviors"            
+             mc:Ignorable="d" 
+             Height="950" Width="1320"  Loaded="UserControl_Loaded">
+    
+        <Grid SnapsToDevicePixels="False">
+        <Border BorderBrush="Black" BorderThickness="2" VerticalAlignment="Top" Height="28" CornerRadius="0" Background="#9f1f14">
+            <!--<Button Content="Button" Height="23" Name="button1" Width="75">-->
+                <Button 
+                             Width="32" 
+                            Height="32"  
+                            HorizontalContentAlignment="Right" 
+                            Grid.Column="1" 
+                            Margin="1280,-2,0,-3"
+                            Name="Close" 
+                            Click="Close_Click" 
+                            Background="Transparent"
+                            Cursor="Hand"
+                            >
+                    <StackPanel>
+                        <Image 
+                                Source="/Images/Exit.png" 
+                                Width="26"
+                                Height="30" 
+                                Grid.Column="1" 
+                                Margin="0,0,0,2" 
+                                HorizontalAlignment="Right" ImageFailed="Image_ImageFailed"></Image>
+                    </StackPanel>
+                </Button>
+            
+        </Border>
+
+        <Border BorderBrush="Black" BorderThickness="2" Margin="50,36,726,0"  VerticalAlignment="Top" Height="240" CornerRadius="20">
+            <DataGrid AutoGenerateColumns="False" Height="197" Name="rsgrid" Width="410" IsReadOnly="True" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Item Code" Width="150" Binding="{Binding ItemCode}"></DataGridTextColumn>                   
+                    <DataGridTextColumn Header="Qty" Width="100" Binding="{Binding Qty}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Recv Date" Width="150" Binding="{Binding RecvDate}"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border >
+        <Border BorderBrush="Black" BorderThickness="2" Margin="619,39,100,0"  VerticalAlignment="Top" Height="237" CornerRadius="20">
+            <Label Content="Picking Status" FontWeight="Bold" Foreground="Black" Grid.ColumnSpan="2" Height="26" HorizontalAlignment="Left" Margin="202,0,0,0" Name="label6" VerticalAlignment="Top" Width="117" />
+        </Border>
+        <!--<Grid Name="grid1" Margin="134,67,862,826">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="90*" />
+                <ColumnDefinition Width="114*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32*" />
+                <RowDefinition Height="40*" />
+                <RowDefinition Height="35*" />
+            </Grid.RowDefinitions>
+            <Label Content="Receveing Status" Height="28" HorizontalAlignment="Left" Margin="52,0,0,0" Name="label1" VerticalAlignment="Top" Width="136" Foreground="Black" FontWeight="Bold" Grid.ColumnSpan="2" />
+            <Label Content="Item Count" Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="6,0,0,0" Name="label2" VerticalAlignment="Top" Grid.RowSpan="2" />
+            <Label Content="Label" Grid.Column="1" Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="18,0,0,0" Name="label3" VerticalAlignment="Top" />
+            <Label Content="Total Qty" Grid.Row="2" Height="28" HorizontalAlignment="Left" Margin="6,-1,0,0" Name="label4" VerticalAlignment="Top" />
+            <Label Content="Label" Grid.Column="1" Grid.Row="2" Height="28" HorizontalAlignment="Left" Margin="18,0,0,0" Name="label5" VerticalAlignment="Top" />
+        </Grid>-->
+        <!--<ListView Name="lvw" ItemsSource="{Binding Path=Collection}" ScrollViewer.VerticalScrollBarVisibility="Auto" MaxHeight="260" Height="77" Width="328" Margin="83,105,789,668" Foreground="Black">
+            <ListView.View>
+                <GridView AllowsColumnReorder="False">
+                    <GridViewColumn Header="SiteCode" Width="80" DisplayMemberBinding="{Binding SiteCode}" />
+                    <GridViewColumn Header="ItemCode" Width="80" DisplayMemberBinding="{Binding ItemCode}" />
+                    <GridViewColumn Header="Qty" Width="80" DisplayMemberBinding="{Binding Qty}" />
+                    <GridViewColumn Header="RecvDate" Width="80" DisplayMemberBinding="{Binding RecvDate}" />
+                </GridView>
+            </ListView.View>
+        </ListView>-->
+
+        <Label Content="Receiving Status" Height="28" HorizontalAlignment="Left" Margin="263,36,0,0" Name="label1" VerticalAlignment="Top" Width="136" Foreground="Black" FontWeight="Bold" />
+
+        <DataGrid AutoGenerateColumns="False" Height="196" HorizontalAlignment="Center" Margin="527,64,0,0" Name="Xgrid" VerticalAlignment="Top" Width="464" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Item Code" Width="100" Binding="{Binding ItemCode}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Item Name" Width="200" Binding="{Binding ItemName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Qty" Width="70" Binding="{Binding Qty}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Pick Qty" Width="85" Binding="{Binding PICQTY}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Border BorderBrush="Black" BorderThickness="2" CornerRadius="20" Margin="627,293,108,386">
+            <Grid Height="268" Width="503">               
+            </Grid>
+        </Border>
+        <Label Content="" Height="28" HorizontalAlignment="Left" Margin="320,0,0,0" Name="lbl_timer" VerticalAlignment="Top" FontSize="14" Foreground="White" FontWeight="Bold"/>
+        <Label Content="Select Top Item" Height="28" HorizontalAlignment="Left" Margin="500,0,0,0" Name="lbl_item" VerticalAlignment="Top" FontSize="14" Foreground="White" FontWeight="Bold"/>
+        <ComboBox x:Name = "cmbtop"  HorizontalAlignment = "Left" Margin = "650,3,0,0" VerticalAlignment = "Top" Width = "120" Height="22" IsEditable = "True" Background="White" SelectionChanged="cmbtop_SelectionChanged" ItemsSource="{Binding }">
+        </ComboBox>      
+    </Grid>
+</UserControl>

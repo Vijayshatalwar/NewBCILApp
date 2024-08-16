@@ -1,0 +1,140 @@
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\ApplicationInsights.config
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\csc.exe
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\vbc.exe
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.pdb
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\System.Net.Http.Formatting.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Newtonsoft.Json.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\bin\System.Net.Http.Formatting.xml
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb
+E:\Runnung Project\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.csprojResolveAssemblyReference.cache
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\ApplicationInsights.config
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\csc.exe
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\vbc.exe
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.pdb
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\System.Net.Http.Formatting.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Newtonsoft.Json.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\System.Net.Http.Formatting.xml
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+E:\Runnung Project\BAckup24feb\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\ApplicationInsights.config
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\csc.exe
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\vbc.exe
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.pdb
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb
+D:\LIVE_PROJECT_DHARMENDRA\GreenLamm\BAckup24feb\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.csprojResolveAssemblyReference.cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\ApplicationInsights.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\csc.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\System.Collections.Immutable.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\System.Reflection.Metadata.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\vbc.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\roslyn\VBCSCompiler.exe.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.dll.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\SoapBasewebservice.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Web.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.ApplicationInsights.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\System.Net.Http.Formatting.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Newtonsoft.Json.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.DependencyCollector.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.Web.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.AI.WindowsServer.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.ApplicationInsights.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\bin\System.Net.Http.Formatting.xml
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.csprojResolveAssemblyReference.cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\SoapBaseWebService\SoapBasewebservice\SoapBasewebservice\obj\Debug\SoapBasewebservice.pdb

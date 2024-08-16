@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{477527EC-C8CB-4BC6-BC5B-CE590585A290}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GREENPLY</RootNamespace>
+    <AssemblyName>GREENPLY</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>GreenplyLogos-01.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib">
+      <HintPath>..\..\..\..\Krish Rotomotive\ROTOMOTIVE V1.3\ROTOMOTIVE WMS\ROTOMOTIVE\bin\Debug\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="BcilLib, Version=5.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\GreenplyCommServer\bin\Debug\BcilLib.dll</HintPath>
+    </Reference>
+    <Reference Include="BCILLogger, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\GreenplyCommServer\bin\Debug\BCILLogger.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras.WPF4, Version=3.0.0.19993, Culture=neutral, PublicKeyToken=1673db7d5906b0ad, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\GalaSoft.MvvmLight.Extras.WPF4.dll</HintPath>
+    </Reference>
+    <Reference Include="LoginControl, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\LoginControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Exchange.WebServices, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\TIZIT\IMS_COMM_SERVER - VS2015\IMS_COMM_SERVER\bin\x64\Debug\Microsoft.Exchange.WebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Exchange.WebServices.Auth">
+      <HintPath>..\..\..\..\TIZIT\IMS_COMM_SERVER - VS2015\IMS_COMM_SERVER\bin\x64\Debug\Microsoft.Exchange.WebServices.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.39\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
+    <Reference Include="Reset Password Control, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Reset Password Control.dll</HintPath>
+    </Reference>
+    <Reference Include="sapnco, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\sapnco.dll</HintPath>
+    </Reference>
+    <Reference Include="sapnco_utils, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\sapnco_utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Ribbon" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UmsDLL, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\UmsDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="User Management, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\User Management.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\WPFToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFToolkit.Extended, Version=1.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\WPFToolkit.Extended.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Classes\BcilNetwork.cs" />
+    <Compile Include="Classes\MyExcel.cs" />
+    <Compile Include="Classes\WriteLogFile.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\GreenplyERPPostingService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="UserControls\CustomMessage\WndForCustomMessage.xaml.cs">
+      <DependentUpon>WndForCustomMessage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Dashboard\UCDashbord.xaml.cs">
+      <DependentUpon>UCDashbord.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Masters\UcDepotMaster.xaml.cs">
+      <DependentUpon>UcDepotMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Masters\UcEmailConfigMaster.xaml.cs">
+      <DependentUpon>UcEmailConfigMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Masters\UcGroupMaster.xaml.cs">
+      <DependentUpon>UcGroupMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Masters\UcGroupRights.xaml.cs">
+      <DependentUpon>UcGroupRights.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Masters\UCMaterialMaster.xaml.cs">
+      <DependentUpon>UCMaterialMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Masters\UcPlantMaster.xaml.cs">
+      <DependentUpon>UcPlantMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Masters\UcRejectionMaster.xaml.cs">
+      <DependentUpon>UcRejectionMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Masters\UcUserMaster.xaml.cs">
+      <DependentUpon>UcUserMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Masters\UcVendorMaster.xaml.cs">
+      <DependentUpon>UcVendorMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Masters\UcWarehouseMaster.xaml.cs">
+      <DependentUpon>UcWarehouseMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Reports\UCSerialNoGenReports.xaml.cs">
+      <DependentUpon>UCSerialNoGenReports.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Reports\UCStockCountReport.xaml.cs">
+      <DependentUpon>UCStockCountReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCDecorReprinting.xaml.cs">
+      <DependentUpon>UCDecorReprinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCDecorSegregationStackPrinting.xaml.cs">
+      <DependentUpon>UCDecorSegregationStackPrinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCDeliveryCancelledStack.xaml.cs">
+      <DependentUpon>UCDeliveryCancelledStack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCDepotBranchDispatch.xaml.cs">
+      <DependentUpon>UCDepotBranchDispatch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCDoorPlyExistingStockPrinting.xaml.cs">
+      <DependentUpon>UCDoorPlyExistingStockPrinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCDoorPlyItemSelection.xaml.cs">
+      <DependentUpon>UCDoorPlyItemSelection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCDecorExistingStockPrinting.xaml.cs">
+      <DependentUpon>UCDecorExistingStockPrinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCDecorItemSelection.xaml.cs">
+      <DependentUpon>UCDecorItemSelection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCHUBLabelPrinting.xaml.cs">
+      <DependentUpon>UCHUBLabelPrinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCHUBLabelReprinting.xaml.cs">
+      <DependentUpon>UCHUBLabelReprinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCRePrinting.xaml.cs">
+      <DependentUpon>UCRePrinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCSegragationStackPrinting.xaml.cs">
+      <DependentUpon>UCSegragationStackPrinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCVendorBarcodeGeneration.xaml.cs">
+      <DependentUpon>UCVendorBarcodeGeneration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCVendorLabelPrinting.xaml.cs">
+      <DependentUpon>UCVendorLabelPrinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCVendorLabelReprinting.xaml.cs">
+      <DependentUpon>UCVendorLabelReprinting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\UCVendorReprintApproval.xaml.cs">
+      <DependentUpon>UCVendorReprintApproval.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VariableInfo.cs" />
+    <Page Include="Application Base\Logo_Cube.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Application Base\StartingWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Application Base\WinChangePassword.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Application Base\WinDbSetting.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Application Base\WinLogin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomMessageBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Application Base\Logo_Cube.xaml.cs">
+      <DependentUpon>Logo_Cube.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Application Base\StartingWindow.xaml.cs">
+      <DependentUpon>StartingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Application Base\WinChangePassword.xaml.cs">
+      <DependentUpon>WinChangePassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Application Base\WinDbSetting.xaml.cs">
+      <DependentUpon>WinDbSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Application Base\WinLogin.xaml.cs">
+      <DependentUpon>WinLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\BCommon.cs" />
+    <Compile Include="CustomMessageBox.xaml.cs">
+      <DependentUpon>CustomMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\CustomMessage\WndForCustomMessage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Dashboard\UCDashbord.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Masters\UcDepotMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Masters\UcEmailConfigMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Masters\UcGroupMaster.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Masters\UcGroupRights.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Masters\UCMaterialMaster.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Masters\UcPlantMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Masters\UcRejectionMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Masters\UcUserMaster.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\Masters\UcVendorMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Masters\UcWarehouseMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Reports\UCSerialNoGenReports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Reports\UCStockCountReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCDecorReprinting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCDecorSegregationStackPrinting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCDeliveryCancelledStack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCDepotBranchDispatch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCDoorPlyExistingStockPrinting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCDoorPlyItemSelection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCDecorExistingStockPrinting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCDecorItemSelection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCHUBLabelPrinting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCHUBLabelReprinting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCRePrinting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCSegragationStackPrinting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCVendorBarcodeGeneration.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCVendorLabelPrinting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCVendorLabelReprinting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Transaction\UCVendorReprintApproval.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\SapSetting.ini" />
+    <None Include="bin\Debug\Setting.ini">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\MaterialMaster.xls" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PRNFile\GREENPLY.PRN" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Service References\GreenplyERPPostingService\gil_ws.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BUSSINESS_LAYER.dll" />
+    <Content Include="bin\Debug\BUSSINESS_LAYER.pdb" />
+    <Content Include="bin\Debug\COMMON_LAYER.dll" />
+    <Content Include="bin\Debug\COMMON_LAYER.pdb" />
+    <Content Include="bin\Debug\DATA_ACCESS_LAYER.dll" />
+    <Content Include="bin\Debug\DATA_ACCESS_LAYER.pdb" />
+    <Content Include="bin\Debug\ENTITY_LAYER.dll" />
+    <Content Include="bin\Debug\ENTITY_LAYER.pdb" />
+    <Content Include="bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.dll" />
+    <Content Include="bin\Debug\LoginControl.dll" />
+    <Content Include="bin\Debug\Reset Password Control.dll" />
+    <Content Include="bin\Debug\sapnco.dll" />
+    <Content Include="bin\Debug\sapnco_utils.dll" />
+    <Content Include="bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll" />
+    <Content Include="bin\Debug\System.Windows.Interactivity.dll" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="GreenplyLogos-01.ico" />
+    <Resource Include="images\Logos-01 %281%29.png" />
+    <Resource Include="images\GreenplyLogos-01.ico" />
+    <None Include="Service References\GreenplyERPPostingService\GREENPLY.GreenplyERPPostingService.ZbcDeliveryOrderPostResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GreenplyERPPostingService\GREENPLY.GreenplyERPPostingService.ZbcDelvOrderPostRetResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GreenplyERPPostingService\GREENPLY.GreenplyERPPostingService.ZbcPlyqrCodePostResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GreenplyERPPostingService\GREENPLY.GreenplyERPPostingService.ZbcVendorPrintPostResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GreenplyERPPostingService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\GreenplyERPPostingService\configuration.svcinfo" />
+    <None Include="Service References\GreenplyERPPostingService\configuration91.svcinfo" />
+    <Resource Include="images\BCILogo.png" />
+    <Resource Include="bin\Debug\System.Windows.Interactivity.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+    <Content Include="bin\Debug\UmsDLL.dll" />
+    <Content Include="bin\Debug\User Management.dll" />
+    <Content Include="bin\Debug\WPFToolkit.dll" />
+    <Content Include="bin\Debug\WPFToolkit.Extended.dll" />
+    <Content Include="Dependencies\BcilLib.dll" />
+    <Content Include="Dependencies\BCILLogger.dll" />
+    <Content Include="Dependencies\LoginControl.dll" />
+    <Content Include="Dependencies\Reset Password Control.dll" />
+    <Content Include="Dependencies\System.Windows.Interactivity.dll" />
+    <Resource Include="images\Print.png" />
+    <Resource Include="images\1457525991_tick.png" />
+    <Resource Include="images\1457528299_ok.png" />
+    <Resource Include="images\1457528314_cancel.png" />
+    <Resource Include="images\1457528367_notification_error.png" />
+    <Resource Include="images\1457528381_notification_done.png" />
+    <Resource Include="images\1457615979_gnome-session-logout.png" />
+    <Resource Include="images\1457700020_Generate-keys.png" />
+    <Resource Include="images\1457700631_gtk-refresh.png" />
+    <Resource Include="images\arrow-back_previous.png" />
+    <Resource Include="images\error.png" />
+    <Resource Include="images\Exclamation.png" />
+    <Resource Include="images\Exit.png" />
+    <Resource Include="images\Information.png" />
+    <Resource Include="images\tick.png" />
+    <Resource Include="Dependencies\System.Windows.Interactivity.xml" />
+    <Content Include="Dependencies\UmsDLL.dll" />
+    <Content Include="Dependencies\User Management.dll" />
+    <Content Include="Dependencies\WPFToolkit.dll" />
+    <Content Include="Dependencies\WPFToolkit.Extended.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUSSINESS_LAYER\BUSSINESS_LAYER.csproj">
+      <Project>{2A45DC32-8A8F-4294-88CC-9C6F9A4E3C6A}</Project>
+      <Name>BUSSINESS_LAYER</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\COMMON_LAYER\COMMON_LAYER.csproj">
+      <Project>{1F7D1768-2022-4F83-874B-AD6153B83001}</Project>
+      <Name>COMMON_LAYER</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DATA_ACCESS_LAYER\DATA_ACCESS_LAYER.csproj">
+      <Project>{EC9A0E66-D21D-45EC-A7A4-9201D6A94454}</Project>
+      <Name>DATA_ACCESS_LAYER</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ENTITY_LAYER\ENTITY_LAYER.csproj">
+      <Project>{98D24EB4-E3C8-4BF5-95ED-68D5CBAE2E07}</Project>
+      <Name>ENTITY_LAYER</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\Log\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\GreenplyERPPostingService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

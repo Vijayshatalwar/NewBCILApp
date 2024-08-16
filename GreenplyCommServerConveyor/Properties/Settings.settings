@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GreenplyCommServer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ZebraQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.45</Value>
+    </Setting>
+    <Setting Name="ZebraQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+    <Setting Name="MoxaDeviceIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">172.16.3.123</Value>
+    </Setting>
+    <Setting Name="ServiceUserID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BARCODE</Value>
+    </Setting>
+    <Setting Name="ServiceUserPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">barcode@123</Value>
+    </Setting>
+    <Setting Name="StackQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">172.16.3.124</Value>
+    </Setting>
+    <Setting Name="StackQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+    <Setting Name="ScheduledTimeHR" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">14</Value>
+    </Setting>
+    <Setting Name="ScheduledTimeMM" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">17</Value>
+    </Setting>
+    <Setting Name="PrintingSection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2000_PLY</Value>
+    </Setting>
+    <Setting Name="PrintingLocationType" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLANT</Value>
+    </Setting>
+    <Setting Name="MoxaGreenColor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="MoxaRedColor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ThreadSleepInterval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="Moxa_Timeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="DefaultPrinter" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MarkemImaje</Value>
+    </Setting>
+    <Setting Name="IMQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">172.16.3.130</Value>
+    </Setting>
+    <Setting Name="IMQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

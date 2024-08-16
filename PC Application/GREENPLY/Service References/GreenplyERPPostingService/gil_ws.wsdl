@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tns="urn:sap-com:document:sap:soap:functions:mc-style" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:n1="urn:sap-com:document:sap:rfc:functions" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" targetNamespace="urn:sap-com:document:sap:soap:functions:mc-style" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+    <sidl:sidl xmlns:sidl="http://www.sap.com/2007/03/sidl" />
+  </wsdl:documentation>
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="BN__GIL_WS">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sapattahnd:Enabled xmlns:sapattahnd="http://www.sap.com/710/features/attachment/">false</sapattahnd:Enabled>
+        <saptrnbnd:OptimizedMimeSerialization xmlns:saptrnbnd="http://schemas.xmlsoap.org/ws/2004/09/policy/optimizedmimeserialization" wsp:Optional="true" />
+        <wsaw:UsingAddressing xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" wsp:Optional="true" />
+        <wsp:All xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+          <sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
+            <wsp:Policy>
+              <sp:TransportToken>
+                <wsp:Policy>
+                  <sp:HttpsToken>
+                    <wsp:Policy>
+                      <sp:HttpBasicAuthentication />
+                    </wsp:Policy>
+                  </sp:HttpsToken>
+                </wsp:Policy>
+              </sp:TransportToken>
+              <sp:AlgorithmSuite>
+                <wsp:Policy>
+                  <sp:Basic128Rsa15 />
+                </wsp:Policy>
+              </sp:AlgorithmSuite>
+              <sp:Layout>
+                <wsp:Policy>
+                  <sp:Strict />
+                </wsp:Policy>
+              </sp:Layout>
+            </wsp:Policy>
+          </sp:TransportBinding>
+        </wsp:All>
+      </wsp:All>
+      <wsp:All>
+        <sapattahnd:Enabled xmlns:sapattahnd="http://www.sap.com/710/features/attachment/">false</sapattahnd:Enabled>
+        <saptrnbnd:OptimizedXMLTransfer uri="http://xml.sap.com/2006/11/esi/esp/binxml" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
+        <wsaw:UsingAddressing xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" wsp:Optional="true" />
+        <wsp:All xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+          <sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
+            <wsp:Policy>
+              <sp:TransportToken>
+                <wsp:Policy>
+                  <sp:HttpsToken>
+                    <wsp:Policy>
+                      <sp:HttpBasicAuthentication />
+                    </wsp:Policy>
+                  </sp:HttpsToken>
+                </wsp:Policy>
+              </sp:TransportToken>
+              <sp:AlgorithmSuite>
+                <wsp:Policy>
+                  <sp:Basic128Rsa15 />
+                </wsp:Policy>
+              </sp:AlgorithmSuite>
+              <sp:Layout>
+                <wsp:Policy>
+                  <sp:Strict />
+                </wsp:Policy>
+              </sp:Layout>
+            </wsp:Policy>
+          </sp:TransportBinding>
+        </wsp:All>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="BN__GIL_WS_soap12">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sapattahnd:Enabled xmlns:sapattahnd="http://www.sap.com/710/features/attachment/">false</sapattahnd:Enabled>
+        <saptrnbnd:OptimizedMimeSerialization xmlns:saptrnbnd="http://schemas.xmlsoap.org/ws/2004/09/policy/optimizedmimeserialization" wsp:Optional="true" />
+        <wsaw:UsingAddressing xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" wsp:Optional="true" />
+        <wsp:All xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+          <sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
+            <wsp:Policy>
+              <sp:TransportToken>
+                <wsp:Policy>
+                  <sp:HttpsToken>
+                    <wsp:Policy>
+                      <sp:HttpBasicAuthentication />
+                    </wsp:Policy>
+                  </sp:HttpsToken>
+                </wsp:Policy>
+              </sp:TransportToken>
+              <sp:AlgorithmSuite>
+                <wsp:Policy>
+                  <sp:Basic128Rsa15 />
+                </wsp:Policy>
+              </sp:AlgorithmSuite>
+              <sp:Layout>
+                <wsp:Policy>
+                  <sp:Strict />
+                </wsp:Policy>
+              </sp:Layout>
+            </wsp:Policy>
+          </sp:TransportBinding>
+        </wsp:All>
+      </wsp:All>
+      <wsp:All>
+        <sapattahnd:Enabled xmlns:sapattahnd="http://www.sap.com/710/features/attachment/">false</sapattahnd:Enabled>
+        <saptrnbnd:OptimizedXMLTransfer uri="http://xml.sap.com/2006/11/esi/esp/binxml" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
+        <wsaw:UsingAddressing xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" wsp:Optional="true" />
+        <wsp:All xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+          <sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
+            <wsp:Policy>
+              <sp:TransportToken>
+                <wsp:Policy>
+                  <sp:HttpsToken>
+                    <wsp:Policy>
+                      <sp:HttpBasicAuthentication />
+                    </wsp:Policy>
+                  </sp:HttpsToken>
+                </wsp:Policy>
+              </sp:TransportToken>
+              <sp:AlgorithmSuite>
+                <wsp:Policy>
+                  <sp:Basic128Rsa15 />
+                </wsp:Policy>
+              </sp:AlgorithmSuite>
+              <sp:Layout>
+                <wsp:Policy>
+                  <sp:Strict />
+                </wsp:Policy>
+              </sp:Layout>
+            </wsp:Policy>
+          </sp:TransportBinding>
+        </wsp:All>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="IF__Zbc_tst_ws">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sapsession:Session xmlns:sapsession="http://www.sap.com/webas/630/soap/features/session/">
+          <sapsession:enableSession>false</sapsession:enableSession>
+        </sapsession:Session>
+        <sapcentraladmin:CentralAdministration xmlns:sapcentraladmin="http://www.sap.com/webas/700/soap/features/CentralAdministration/" wsp:Optional="true">
+          <sapcentraladmin:BusinessApplicationID>02552E17405E1EEABD975446BB1EAB55</sapcentraladmin:BusinessApplicationID>
+        </sapcentraladmin:CentralAdministration>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP__ZbcDelvOrderPostRet">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+        <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+        <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+        <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP__ZbcVendorPrintPost">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+        <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+        <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+        <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP__ZbcDeliveryOrderPost">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+        <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+        <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+        <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP__ZbcPlyqrCodePost">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+        <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+        <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+        <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" targetNamespace="urn:sap-com:document:sap:rfc:functions">
+      <xsd:simpleType name="char1">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="1" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char10">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="10" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char18">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="18" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char20">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="20" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char30">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="30" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char4">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="4" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char40">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="40" />
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:schema>
+    <xsd:schema xmlns:n0="urn:sap-com:document:sap:rfc:functions" attributeFormDefault="qualified" targetNamespace="urn:sap-com:document:sap:soap:functions:mc-style">
+      <xsd:import namespace="urn:sap-com:document:sap:rfc:functions" />
+      <xsd:complexType name="ZstrBcMatPost">
+        <xsd:sequence>
+          <xsd:element name="Plantcode" type="n0:char4" />
+          <xsd:element name="Matcode" type="n0:char40" />
+          <xsd:element name="Serial" type="n0:char18" />
+          <xsd:element name="Status" type="n0:char1" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZstrBcMatPostOut">
+        <xsd:sequence>
+          <xsd:element name="Plantcode" type="n0:char4" />
+          <xsd:element name="Matcode" type="n0:char40" />
+          <xsd:element name="Serial" type="n0:char18" />
+          <xsd:element name="Status" type="n0:char1" />
+          <xsd:element name="Sts" type="n0:char30" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZstrSdBcDelvPost">
+        <xsd:sequence>
+          <xsd:element name="Plantcode" type="n0:char4" />
+          <xsd:element name="Deliveryno" type="n0:char10" />
+          <xsd:element name="Matcode" type="n0:char40" />
+          <xsd:element name="Serial" type="n0:char18" />
+          <xsd:element name="Qty" type="n0:char20" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZstrSdBcDelvPostOut">
+        <xsd:sequence>
+          <xsd:element name="Plantcode" type="n0:char4" />
+          <xsd:element name="Deliveryno" type="n0:char10" />
+          <xsd:element name="Matcode" type="n0:char40" />
+          <xsd:element name="Serial" type="n0:char18" />
+          <xsd:element name="Qty" type="n0:char20" />
+          <xsd:element name="Sts" type="n0:char30" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZstrBcVenPrintPost">
+        <xsd:sequence>
+          <xsd:element name="Plantcode" type="n0:char4" />
+          <xsd:element name="Ponum" type="n0:char10" />
+          <xsd:element name="Vendinvno" type="n0:char20" />
+          <xsd:element name="Vendinvdt" type="n0:char20" />
+          <xsd:element name="Vendcode" type="n0:char20" />
+          <xsd:element name="Matcode" type="n0:char40" />
+          <xsd:element name="Poqty" type="n0:char20" />
+          <xsd:element name="Serial" type="n0:char18" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZstrBcVenPrintPostOut">
+        <xsd:sequence>
+          <xsd:element name="Plantcode" type="n0:char4" />
+          <xsd:element name="Ponum" type="n0:char10" />
+          <xsd:element name="Vendinvno" type="n0:char20" />
+          <xsd:element name="Vendinvdt" type="n0:char20" />
+          <xsd:element name="Vendcode" type="n0:char20" />
+          <xsd:element name="Matcode" type="n0:char40" />
+          <xsd:element name="Poqty" type="n0:char20" />
+          <xsd:element name="Serial" type="n0:char18" />
+          <xsd:element name="Sts" type="n0:char30" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZttBcMatPost">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:ZstrBcMatPost" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZttBcMatPostOut">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:ZstrBcMatPostOut" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZttSdBcDelvPost">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:ZstrSdBcDelvPost" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZttSdBcDelvPostOut">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:ZstrSdBcDelvPostOut" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZttBcVenPrintPost">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:ZstrBcVenPrintPost" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZttBcVenPrintPostOut">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:ZstrBcVenPrintPostOut" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ZbcPlyqrCodePost">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="DataIn" type="tns:ZttBcMatPost" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZbcPlyqrCodePostResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="DataOut" type="tns:ZttBcMatPostOut" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZbcDeliveryOrderPost">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="DataIn" type="tns:ZttSdBcDelvPost" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZbcDeliveryOrderPostResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="DataOut" type="tns:ZttSdBcDelvPostOut" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZbcVendorPrintPost">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="DataIn" type="tns:ZttBcVenPrintPost" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZbcVendorPrintPostResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="DataOut" type="tns:ZttBcVenPrintPostOut" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZbcDelvOrderPostRet">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="DataIn" type="tns:ZttSdBcDelvPost" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZbcDelvOrderPostRetResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="DataOut" type="tns:ZttSdBcDelvPostOut" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ZbcPlyqrCodePost">
+    <wsdl:part name="parameters" element="tns:ZbcPlyqrCodePost" />
+  </wsdl:message>
+  <wsdl:message name="ZbcPlyqrCodePostResponse">
+    <wsdl:part name="parameter" element="tns:ZbcPlyqrCodePostResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZbcDeliveryOrderPost">
+    <wsdl:part name="parameters" element="tns:ZbcDeliveryOrderPost" />
+  </wsdl:message>
+  <wsdl:message name="ZbcDeliveryOrderPostResponse">
+    <wsdl:part name="parameter" element="tns:ZbcDeliveryOrderPostResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZbcVendorPrintPost">
+    <wsdl:part name="parameters" element="tns:ZbcVendorPrintPost" />
+  </wsdl:message>
+  <wsdl:message name="ZbcVendorPrintPostResponse">
+    <wsdl:part name="parameter" element="tns:ZbcVendorPrintPostResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZbcDelvOrderPostRet">
+    <wsdl:part name="parameters" element="tns:ZbcDelvOrderPostRet" />
+  </wsdl:message>
+  <wsdl:message name="ZbcDelvOrderPostRetResponse">
+    <wsdl:part name="parameter" element="tns:ZbcDelvOrderPostRetResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Zbc_tst_ws">
+    <wsdl:documentation>
+      <sapdoc:sapdoc xmlns:sapdoc="urn:sap:esi:documentation">
+        <sapdoc:docitem docURL="http://GILS4QAPP:8000/sap/bc/esdt/docu/sd_text?sap-client=100&amp;sd_name=ZBC_TST_WS" />
+      </sapdoc:sapdoc>
+    </wsdl:documentation>
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#IF__Zbc_tst_ws" />
+    </wsp:Policy>
+    <wsdl:operation name="ZbcPlyqrCodePost">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP__ZbcPlyqrCodePost" />
+      </wsp:Policy>
+      <wsdl:input message="tns:ZbcPlyqrCodePost" />
+      <wsdl:output message="tns:ZbcPlyqrCodePostResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ZbcDeliveryOrderPost">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP__ZbcDeliveryOrderPost" />
+      </wsp:Policy>
+      <wsdl:input message="tns:ZbcDeliveryOrderPost" />
+      <wsdl:output message="tns:ZbcDeliveryOrderPostResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ZbcVendorPrintPost">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP__ZbcVendorPrintPost" />
+      </wsp:Policy>
+      <wsdl:input message="tns:ZbcVendorPrintPost" />
+      <wsdl:output message="tns:ZbcVendorPrintPostResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ZbcDelvOrderPostRet">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP__ZbcDelvOrderPostRet" />
+      </wsp:Policy>
+      <wsdl:input message="tns:ZbcDelvOrderPostRet" />
+      <wsdl:output message="tns:ZbcDelvOrderPostRetResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GIL_WS" type="tns:Zbc_tst_ws">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#BN__GIL_WS" />
+    </wsp:Policy>
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ZbcPlyqrCodePost">
+      <soap:operation soapAction="urn:sap-com:document:sap:soap:functions:mc-style:Zbc_tst_ws:ZbcPlyqrCodePostRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZbcDeliveryOrderPost">
+      <soap:operation soapAction="urn:sap-com:document:sap:soap:functions:mc-style:Zbc_tst_ws:ZbcDeliveryOrderPostRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZbcVendorPrintPost">
+      <soap:operation soapAction="urn:sap-com:document:sap:soap:functions:mc-style:Zbc_tst_ws:ZbcVendorPrintPostRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZbcDelvOrderPostRet">
+      <soap:operation soapAction="urn:sap-com:document:sap:soap:functions:mc-style:Zbc_tst_ws:ZbcDelvOrderPostRetRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GIL_WS_soap12" type="tns:Zbc_tst_ws">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#BN__GIL_WS_soap12" />
+    </wsp:Policy>
+    <wsoap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ZbcPlyqrCodePost">
+      <wsoap12:operation soapAction="urn:sap-com:document:sap:soap:functions:mc-style:Zbc_tst_ws:ZbcPlyqrCodePostRequest" style="document" />
+      <wsdl:input>
+        <wsoap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsoap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZbcDeliveryOrderPost">
+      <wsoap12:operation soapAction="urn:sap-com:document:sap:soap:functions:mc-style:Zbc_tst_ws:ZbcDeliveryOrderPostRequest" style="document" />
+      <wsdl:input>
+        <wsoap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsoap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZbcVendorPrintPost">
+      <wsoap12:operation soapAction="urn:sap-com:document:sap:soap:functions:mc-style:Zbc_tst_ws:ZbcVendorPrintPostRequest" style="document" />
+      <wsdl:input>
+        <wsoap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsoap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZbcDelvOrderPostRet">
+      <wsoap12:operation soapAction="urn:sap-com:document:sap:soap:functions:mc-style:Zbc_tst_ws:ZbcDelvOrderPostRetRequest" style="document" />
+      <wsdl:input>
+        <wsoap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsoap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GIL_WS">
+    <wsdl:port name="GIL_WS" binding="tns:GIL_WS">
+      <soap:address location="http://GILS4QAPP:8000/sap/bc/srt/rfc/sap/zbc_tst_ws/100/gil_ws/gil_ws" />
+    </wsdl:port>
+    <wsdl:port name="GIL_WS_soap12" binding="tns:GIL_WS_soap12">
+      <wsoap12:address location="http://GILS4QAPP:8000/sap/bc/srt/rfc/sap/zbc_tst_ws/100/gil_ws/gil_ws" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

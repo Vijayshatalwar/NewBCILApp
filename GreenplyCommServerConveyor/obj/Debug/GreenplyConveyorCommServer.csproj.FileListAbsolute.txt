@@ -1,0 +1,8 @@
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyConveyorCommServer.exe.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyConveyorCommServer.csprojResolveAssemblyReference.cache
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.frmMain.resources
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.Properties.Resources.resources
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyConveyorCommServer.csproj.GenerateResource.Cache

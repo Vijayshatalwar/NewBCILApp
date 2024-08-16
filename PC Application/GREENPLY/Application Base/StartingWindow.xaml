@@ -1,0 +1,119 @@
+﻿<Window x:Class="GREENPLY.StartingWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title=""
+	Width="470" Height="270" Background="{x:Null}" Foreground="#FFFFFFFF" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True" xmlns:d="http://schemas.microsoft.com/xaml/behaviors" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Storyboard x:Key="StoryboardMain" Completed="Storyboard_Completed">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="{x:Null}" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01" Value="1" KeySpline="0,0.019,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.2" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="{x:Null}" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.500" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:3" Value="{x:Static Visibility.Collapsed}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="StoryboardLoader">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ellipse_Copy1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" RepeatBehavior="Forever">
+                <SplineDoubleKeyFrame KeySpline="0,0,1,1" KeyTime="00:00:00.6000000" Value="21"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.50000" Value="5"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.80000" Value="-1" KeySpline="0,0,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ellipse_Copy2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" RepeatBehavior="Forever">
+                <SplineDoubleKeyFrame KeySpline="0,0,1,1" KeyTime="00:00:00.9000" Value="32"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.2000000" Value="21"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="5"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.8000000" Value="-1" KeySpline="0,0,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ellipse_Copy" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" RepeatBehavior="Forever">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="10" KeySpline="0,0,1,1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.8000000" Value="-1" KeySpline="0,0,1,1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource StoryboardMain}" x:Name="StoryboardMain_BeginStoryboard"/>
+            <BeginStoryboard Storyboard="{StaticResource StoryboardLoader}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+         
+        <Border Width="450" Height="250" CornerRadius="10,10,10,10" BorderThickness="1,1,0,0" BorderBrush="#AEFFFFFF">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.799,1.021" StartPoint="-0.085,-0.213">
+                    <GradientStop Color="Green" Offset="0.991"/>
+                    <GradientStop Color="Yellow" Offset="0"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+
+        <!--<TextBlock  HorizontalAlignment="Center"   TextAlignment="Center" FontFamily="Arial" FontSize="25" Text="GREENPLY" TextWrapping="Wrap" d:IsStaticText="True" Height="55" VerticalAlignment="Center" Width="448" Margin="0,31,0,145">
+		<TextBlock.Foreground>
+			<LinearGradientBrush EndPoint="0.886,1.47" StartPoint="0.055,-0.261">
+				<GradientStop Color="#FFFFFFFF" Offset="0"/>
+				<GradientStop Color="#FFB8C2D2" Offset="1"/>
+			</LinearGradientBrush>
+		</TextBlock.Foreground>
+        </TextBlock>-->
+        <TextBlock Margin="15,0,0,30" VerticalAlignment="Bottom" Text="© 2020-2021 Bar Code India, All rights reserved." HorizontalAlignment="Left" TextWrapping="Wrap" FontFamily="Arial" Foreground="#FFE5E9F2"/>
+        <TextBlock Margin="0,122,0,108" HorizontalAlignment="Center" Name="txtVersion" TextWrapping="Wrap" FontSize="30" FontFamily="Tahoma">
+		<TextBlock.Foreground>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#A8A29EC2" Offset="1"/>
+				<GradientStop Color="#97FFFFFF" Offset="0.723"/>
+			</LinearGradientBrush>
+		</TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Right" Margin="0,0,100,27" VerticalAlignment="Bottom" Width="Auto" Height="Auto" Text="Loading" TextWrapping="Wrap" FontFamily="Arial" x:Name="textBlock" RenderTransformOrigin="0.5,0.5" FontSize="20">
+		<TextBlock.Foreground>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#9F847FAF" Offset="1"/>
+				<GradientStop Color="#95FFFFFF" Offset="0.656"/>
+			</LinearGradientBrush>
+		</TextBlock.Foreground>
+		<TextBlock.RenderTransform>
+			<TransformGroup>
+				<ScaleTransform ScaleX="1" ScaleY="1"/>
+				<SkewTransform AngleX="0" AngleY="0"/>
+				<RotateTransform Angle="0"/>
+				<TranslateTransform X="0" Y="0"/>
+			</TransformGroup>
+		</TextBlock.RenderTransform>
+        </TextBlock>
+        <Ellipse Fill="#9918F231" Stroke="#7A373737" StrokeThickness="1" HorizontalAlignment="Right" Margin="0,0,90,33" x:Name="ellipse_Copy" VerticalAlignment="Bottom" Width="8" Height="8" RenderTransformOrigin="0.5,0.5" Visibility="Visible">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                    <SkewTransform AngleX="0" AngleY="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="0" Y="0"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse Fill="#9918F231" Stroke="#7A373737" StrokeThickness="1" HorizontalAlignment="Right" Margin="0,0,90,33" x:Name="ellipse_Copy1" VerticalAlignment="Bottom" Width="8" Height="8" RenderTransformOrigin="0.5,0.5" Visibility="Visible">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                    <SkewTransform AngleX="0" AngleY="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="0" Y="0"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse Fill="#9918F231" Stroke="#7A373737" StrokeThickness="1" HorizontalAlignment="Right" Margin="0,0,90,33" x:Name="ellipse_Copy2" VerticalAlignment="Bottom" Width="8" Height="8" RenderTransformOrigin="0.5,0.5" Visibility="Visible">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                    <SkewTransform AngleX="0" AngleY="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="0" Y="0"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+    </Grid>
+</Window>
+

@@ -1,0 +1,205 @@
+﻿<UserControl x:Class="GREENPLY.UserControls.Masters.UcVendorMaster"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/xaml/behaviors" 
+              xmlns:cmd="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.WPF4" 
+               xmlns:i="clr-namespace:Microsoft.Xaml.Behaviors;assembly=Microsoft.Xaml.Behaviors"
+                 xmlns:wpfx="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit/extended"
+             mc:Ignorable="d" 
+            BorderThickness="2" Background="White" HorizontalContentAlignment="Stretch"  Height="700" Width="1320" Loaded="UserControl_Loaded"
+             KeyboardNavigation.TabNavigation="Cycle">
+
+
+    <Border BorderThickness="2"  HorizontalAlignment="Stretch" >
+
+        <StackPanel >
+            <Border >
+
+                <Grid Background="Green" Width="1311">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontWeight="Bold" TextWrapping="Wrap" Height="28" Foreground="White" 
+                               ForceCursor="True" FontStyle="Normal" Width="638" Text="VENDOR MASTER" TextAlignment="Right" Margin="50,2,623,1">
+                    </TextBlock>
+                    <Button 
+                            Width="32" 
+                            Height="32"  
+                            HorizontalContentAlignment="Right" Margin="1270,-2,11,-3"
+                            Name="Close" 
+                            Click="Close_Click" 
+                            Background="Transparent"
+                            Cursor="Hand"
+                            >
+                        <StackPanel>
+                            <Image 
+                                Source="/Images/Exit.png" 
+                                Width="30"
+                                Height="30" 
+                                Grid.Column="1" 
+                                Margin="0,0,0,2" 
+                                HorizontalAlignment="Right"></Image>
+                        </StackPanel>
+
+                    </Button>
+                </Grid>
+
+            </Border>
+            <GroupBox Header="Enter Required Details For Vendor Master : " Foreground="Navy" FontSize="12" FontWeight="Bold" Name="gbEntry"   Height="138" VerticalAlignment="Top" Margin="0,0,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="72"></ColumnDefinition>
+                        <ColumnDefinition Width="180" />
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="35*" />
+                    </Grid.RowDefinitions>
+                    <!--<Label Content="Select User Type *:"     Foreground="Navy"   HorizontalAlignment="Right"   Name="label3"   Grid.Column="3" />
+                    <ComboBox   Foreground="Black" Grid.Column="4"   ItemsSource="{Binding}"   Name="cmbGroupType" SnapsToDevicePixels="True"   >
+                        <ComboBoxItem Content="ADMIN"/>
+                        <ComboBoxItem Content="USER"/>
+                    </ComboBox>-->
+                    <Label 
+                        Content="Vendor Code *:"     
+                        Foreground="Navy"   
+                        HorizontalAlignment="Right"   
+                        Name="label1" 
+                        VerticalAlignment="Center" 
+                        Grid.Column="1" Margin="0,10,6,6" />
+                    <TextBox   
+                        Foreground="Black"     
+                        Name="txtVendorId"  
+                        MaxLength="20"    
+                        Grid.Column="2" Background="White" Margin="1,8,170,4" Grid.ColumnSpan="2" Width="189" TabIndex="0" CharacterCasing="Normal" />
+                    <Label 
+                        Foreground="Navy"   
+                        Content="Vendor Name *:" 
+                        Name="lblUserName" 
+                        Grid.Column="3"       
+                        HorizontalAlignment="Right" Margin="0,10,53,6" />
+
+                    <TextBox 
+                        Grid.Column="3"  VerticalAlignment="Center" Background="White" Name="txtVendorName" Foreground="Black"   
+                        MaxLength="50" Margin="134,8,168,4" Grid.ColumnSpan="4" Width="418" TabIndex="1" CharacterCasing="Normal">
+                    </TextBox>
+                    <Label 
+                        Content="Vendor Address *:"     
+                        Foreground="Navy"   
+                        HorizontalAlignment="Right"   
+                        Name="label4" 
+                        VerticalAlignment="Center" 
+                        Grid.Column="1" 
+                        Grid.Row="2" Margin="0,5,6,6" />
+                    <TextBox     
+                        Grid.Column="2" 
+                        MaxLength="50"   Background="White"
+                        Name="txtVendorAddress"  
+                        VerticalAlignment="Center"  
+                        Grid.Row="2" Grid.ColumnSpan="5" Margin="1,4,168,4" Width="731" TabIndex="3" CharacterCasing="Normal" />
+                    <Label Content="Select Company Code *:"  Visibility="Hidden"   Foreground="Navy"   HorizontalAlignment="Right"   Name="label2" VerticalAlignment="Center" Grid.Column="5" />
+                    <ComboBox   Foreground="Black" Grid.Column="6" Visibility="Hidden"  ItemsSource="{Binding}"  Name="cmbCompanyCode" SnapsToDevicePixels="True"   >
+
+                    </ComboBox>
+                    <Label Content="Vendor Email Id *:" Foreground="Navy" HorizontalAlignment="Right" Margin="0,8,52,9" Name="label3" Grid.Column="3" Grid.Row="1" />
+                    <TextBox Background="White" Foreground="Black" Grid.Column="3" Grid.ColumnSpan="4" Margin="134,6,168,7" MaxLength="50" Name="txtVendorEmail" VerticalAlignment="Center" Width="418" Grid.Row="1" TabIndex="2" CharacterCasing="Normal" />
+                    <Label Content="Password *:" Foreground="Navy" HorizontalAlignment="Right" Margin="0,8,6,9" Name="label7" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" />
+                    <PasswordBox Grid.Column="2" Grid.Row="1" Height="27" HorizontalAlignment="Left" Margin="1,6,0,0"
+                                 Name="txtPassword" VerticalAlignment="Top" Width="189" Grid.ColumnSpan="2" Background="{x:Null}" />
+                </Grid>
+            </GroupBox>
+
+            <Border Margin="0,0,0,0" CornerRadius="0" BorderBrush="#FF295160" BorderThickness="1" Width="1310" Height="47">
+                <Grid Margin="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120" />
+                        <ColumnDefinition Width="120" />
+                        <ColumnDefinition Width="120" />
+                        <ColumnDefinition Width="299" />
+                        <ColumnDefinition Width="3" />
+                        <ColumnDefinition Width="510" />
+                        <ColumnDefinition Width="120*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="48"/>
+                    </Grid.RowDefinitions>
+                    <!--<Button  IsCancel="False" Content="Exit" Margin="132,6,57,2"  Name="btnExit" Width=" 110" Grid.Column="3" Click="btnExit_Click" > 
+                          <StackPanel>  
+                                <Image Source="/Images/arrow-back_previous.png" Width="40">  </Image>
+                                <TextBlock Background="Transparent">Exit</TextBlock>
+                            </StackPanel>
+                        </Button>-->
+                    <Button Content="Save" Grid.Column="1" Height="35" IsCancel="False" Margin="4,5,6,8" Name="btnSave" Width=" 110" Click="btnSave_Click" TabIndex="4" />
+                    <Button Content="Edit" Grid.Column="2" Height="35" IsCancel="False" Margin="8,5,2,8" Name="btnEdit" Width=" 110" Click="btnEdit_Click" TabIndex="5" />
+                    <Button Content="Delete" Grid.Column="3" Height="35" IsCancel="False" Margin="12,6,177,7" Name="btnDelete" Width=" 110" Click="btnDelete_Click" TabIndex="6" />
+                    <Button Content="Clear" Grid.Column="3" Height="35" IsCancel="False" Margin="136,6,53,7" Name="btnReset" Width=" 110" Click="btnReset_Click" TabIndex="7" />
+                    <Label Content="Enter Vendor Description to Search :" FontSize="12" Foreground="Navy" Grid.Column="5" HorizontalAlignment="Left" Margin="135,11,0,14" Name="lblSearch" />
+                    <TextBox Background="White" Foreground="Black" Grid.Column="5" HorizontalAlignment="Right" Margin="0,10,48,11" MaxLength="50" Name="txtSearch" Width="256" Grid.ColumnSpan="2" TextChanged="txtSearch_TextChanged"/>
+                    <CheckBox Content="" Height="16" HorizontalAlignment="Left" Margin="78,16,0,0" Name="chkSelectAll" VerticalAlignment="Top" Click="chkSelectAll_Click"  />
+                    <Label Content="Select All :" FontSize="12" Foreground="Navy" HorizontalAlignment="Left" Margin="10,11,0,13" Name="label5" />
+                    <Label Content="No. of Records :" FontSize="12" Foreground="Navy" Grid.Column="3" Grid.ColumnSpan="3" HorizontalAlignment="Left" Margin="276,11,0,13" Name="label6" />
+                    <Label Content="***" FontSize="12" Foreground="Navy" Grid.Column="5" HorizontalAlignment="Left" Margin="63,11,0,13" Name="lblCount" Width="58" />
+                </Grid>
+                <!--<CheckBox Content="CheckBox" Height="16" Name="checkBox1" />-->
+            </Border>
+
+            <!--Invoice Data-->
+            <Border BorderThickness="1" BorderBrush="Transparent"   CornerRadius="10" ></Border>
+            <Border BorderThickness="1" BorderBrush="Transparent"   CornerRadius="10" >
+                <ListView Name="lv"   ItemsSource="{Binding Path=Collection}" HorizontalAlignment="Left"  SnapsToDevicePixels="True" 
+                          ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Visible" SelectionMode="Single"
+                           Grid.ColumnSpan="2" MaxHeight="380" >
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <EventSetter Event="MouseDoubleClick" Handler="lv_MouseDoubleClick" />
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            <Setter Property="Focusable" Value="False"/>
+                            <Setter Property="FontSize" Value="12"></Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#001f72" />
+                                    <Setter Property="Foreground" Value="White" />
+                                    <Setter Property="FontSize" Value="15"></Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.View>
+                        <GridView AllowsColumnReorder="False">
+                            <GridViewColumn Width="80" Header="Select">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox IsChecked="{Binding IsValid}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Vendor ID" Width="200" DisplayMemberBinding="{Binding VendorId}"/>
+                            <GridViewColumn Header="Vendor Description" Width="350" DisplayMemberBinding="{Binding VendorDesc}"/>
+                            <GridViewColumn Header="Vendor Email ID" Width="250" DisplayMemberBinding="{Binding VendorEmail}"/>
+                            <GridViewColumn Header="Vendor Address" Width="500" DisplayMemberBinding="{Binding VendorAdd}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+            </Border>
+            <!--Invoice Data-->
+
+            <!--SAP Data-->
+
+            <Border BorderThickness="1" BorderBrush="Transparent" Margin="10,0" CornerRadius="10" ></Border>
+            <!--SAP Data-->
+        </StackPanel>
+    </Border>
+</UserControl>

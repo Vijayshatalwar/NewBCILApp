@@ -1,0 +1,100 @@
+Load SAP Purchase Order -- No of Records Count - 0 at 14-09-2020 11:45:57
+Load SAP Purchase Order -- No of Records Count - 0 at 14-09-2020 11:46:26
+Load SAP Purchase Order -- No of Records Count - 2 at 14-09-2020 11:48:58
+Load Purchase Order Record No. - 1==>30201,HI12345_2,,,,,,,,,
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[tSAPPurchaseOrderData] WHERE LocationCode = @LocationCode AND PONumber = @PONumber at 14-09-2020 11:49:25
+Update SAP Material Master Query =>  UPDATE [dbo].[tSAPPurchaseOrderData] 
+ SET [VendorCode] = @VendorCode, [MatCode] = @MatCode, [MatDescription] = @MatDesc, [MatSize] =  @MatSize, [MatGrade] = @MatGrade,
+ [Category] = @Category, [MatGroup] = @MatGroup, [POQty] = @POQty,
+ [PODate] = @PODate, [DownloadOn] = GETDATE(), [DownloadBy] = 'WebService'
+ WHERE LocationCode = @LocationCode AND PONumber = @PONumber 
+ at 14-09-2020 11:49:29
+Load SAP Purchase Order Data - Record 1 ==> HI12345_2 Saved successfully at 14-09-2020 11:49:31
+Load SAP Purchase Order -- No of Records Count - 2 at 14-09-2020 11:51:00
+Load Purchase Order Record No. - 1==>30201,HI12345_2,,,,,,,,,
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[tSAPPurchaseOrderData] WHERE LocationCode = @LocationCode AND PONumber = @PONumber at 14-09-2020 11:51:03
+Update SAP Material Master Query =>  UPDATE [dbo].[tSAPPurchaseOrderData] 
+ SET [VendorCode] = @VendorCode, [MatCode] = @MatCode, [MatDescription] = @MatDesc, [MatSize] =  @MatSize, [MatGrade] = @MatGrade,
+ [Category] = @Category, [MatGroup] = @MatGroup, [POQty] = @POQty,
+ [PODate] = @PODate, [DownloadOn] = GETDATE(), [DownloadBy] = 'WebService'
+ WHERE LocationCode = @LocationCode AND PONumber = @PONumber 
+ at 14-09-2020 11:51:04
+Load SAP Purchase Order Data - Record 1 ==> HI12345_2 Saved successfully at 14-09-2020 11:51:04
+Load SAP Delivery Order -- No of Records Count - 2 at 14-09-2020 11:52:57
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,
+Is Delivery Order No exist query => SELECT Count(1) FROM [dbo].[tSAPDeliveryOrderData] WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo at 14-09-2020 11:52:57
+Insert SAP Delivery Order No Query=>  INSERT INTO [dbo].[tSAPDeliveryOrderData] 
+ ([LocationCode], [DeliveryOrderNo], [CustomerCode], [CustomerName], [MatCode], [MatDesc]
+, [DOQty], [DODate], [DownloadOn], [DownloadBy] )
+ VALUES ( @LocationCode, @DeliveryOrderNo, @CustomerCode, @CustomerName, @MatCode, @MatDesc,
+ @DOQty, @DODate, GETDATE(), 'WebService')
+ at 14-09-2020 11:52:57
+Load SAP Delivery Order Data - Record 1 ==> HI12345_2 Saved successfully at 14-09-2020 11:52:57
+Load SAP Delivery Order -- No of Records Count - 2 at 14-09-2020 11:53:47
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,
+Is Delivery Order No exist query => SELECT Count(1) FROM [dbo].[tSAPDeliveryOrderData] WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo at 14-09-2020 11:53:57
+Update SAP Delivery Order No Query =>  UPDATE [dbo].[tSAPDeliveryOrderData] 
+ SET [CustomerCode] = @CustomerCode, [CustomerName] = @CustomerName, [MatCode] = @MatCode, [MatDesc] =  @MatDesc,
+ [DOQty] = @DOQty,
+ [DODate] = @DODate, [DownloadOn] = GETDATE(), [DownloadBy] = 'WebService'
+ WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo 
+ at 14-09-2020 11:54:07
+Load SAP Delivery Order Data - Record 1 ==> HI12345_2 Saved successfully at 14-09-2020 11:54:11
+Load SAP Delivery Order -- No of Records Count - 2 at 14-09-2020 11:54:50
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,
+Is Delivery Order No exist query => SELECT Count(1) FROM [dbo].[tSAPDeliveryOrderData] WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo at 14-09-2020 11:54:52
+Update SAP Delivery Order No Query =>  UPDATE [dbo].[tSAPDeliveryOrderData] 
+ SET [CustomerCode] = @CustomerCode, [CustomerName] = @CustomerName, [MatCode] = @MatCode, [MatDesc] =  @MatDesc,
+ [DOQty] = @DOQty,
+ [DODate] = @DODate, [DownloadOn] = GETDATE(), [DownloadBy] = 'WebService'
+ WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo 
+ at 14-09-2020 11:54:53
+Load SAP Delivery Order Data - Record 1 ==> HI12345_2 Saved successfully at 14-09-2020 11:54:53
+Load SAP Delivery Order -- No of Records Count - 2 at 14-09-2020 11:56:36
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,
+Is Delivery Order No exist query => SELECT Count(1) FROM [dbo].[tSAPDeliveryOrderData] WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo at 14-09-2020 11:56:40
+Update SAP Delivery Order No Query =>  UPDATE [dbo].[tSAPDeliveryOrderData] 
+ SET [CustomerCode] = @CustomerCode, [CustomerName] = @CustomerName, [MatCode] = @MatCode, [MatDesc] =  @MatDesc,
+ [DOQty] = @DOQty,
+ [DODate] = @DODate, [DownloadOn] = GETDATE(), [DownloadBy] = 'WebService'
+ WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo 
+ at 14-09-2020 11:56:42
+Load SAP Delivery Order Data - Record 1 ==> HI12345_2 Saved successfully at 14-09-2020 11:56:42
+Load Delivery Order 2 ==> System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GreenplyWebService.SoapServices.GetSAPDeliveryOrderData(ListDeliveryOrderDetails objPO, String UserName, String Pswd) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\GreenplyWebService.asmx.cs:line 269 at 14-09-2020 11:56:42
+Load SAP Delivery Order -- No of Records Count - 2 at 14-09-2020 11:57:19
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,
+Is Delivery Order No exist query => SELECT Count(1) FROM [dbo].[tSAPDeliveryOrderData] WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo at 14-09-2020 11:57:23
+Update SAP Delivery Order No Query =>  UPDATE [dbo].[tSAPDeliveryOrderData] 
+ SET [CustomerCode] = @CustomerCode, [CustomerName] = @CustomerName, [MatCode] = @MatCode, [MatDesc] =  @MatDesc,
+ [DOQty] = @DOQty,
+ [DODate] = @DODate, [DownloadOn] = GETDATE(), [DownloadBy] = 'WebService'
+ WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo 
+ at 14-09-2020 11:57:37
+Load SAP Delivery Order Data - Record 1 ==> HI12345_2 Saved successfully at 14-09-2020 11:57:42
+Load Delivery Order 2 ==> System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GreenplyWebService.SoapServices.GetSAPDeliveryOrderData(ListDeliveryOrderDetails objPO, String UserName, String Pswd) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\GreenplyWebService.asmx.cs:line 269 at 14-09-2020 11:57:43
+Load SAP Delivery Order -- No of Records Count - 2 at 14-09-2020 11:58:45
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,
+Is Delivery Order No exist query => SELECT Count(1) FROM [dbo].[tSAPDeliveryOrderData] WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo at 14-09-2020 11:58:47
+Insert SAP Delivery Order No Query=>  INSERT INTO [dbo].[tSAPDeliveryOrderData] 
+ ([LocationCode], [DeliveryOrderNo], [CustomerCode], [CustomerName], [MatCode], [MatDesc]
+, [DOQty], [DODate], [DownloadOn], [DownloadBy] )
+ VALUES ( @LocationCode, @DeliveryOrderNo, @CustomerCode, @CustomerName, @MatCode, @MatDesc,
+ @DOQty, @DODate, GETDATE(), 'WebService')
+ at 14-09-2020 11:58:51
+Load SAP Delivery Order Data - Record 1 ==> HI12345_2 Saved successfully at 14-09-2020 11:58:52
+Load Delivery Order 2 ==> System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GreenplyWebService.SoapServices.GetSAPDeliveryOrderData(ListDeliveryOrderDetails objPO, String UserName, String Pswd) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\GreenplyWebService.asmx.cs:line 269 at 14-09-2020 11:58:52
+Load SAP Delivery Order -- No of Records Count - 2 at 14-09-2020 12:00:41
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,
+Is Delivery Order No exist query => SELECT Count(1) FROM [dbo].[tSAPDeliveryOrderData] WHERE LocationCode = @LocationCode AND DeliveryOrderNo = @DeliveryOrderNo at 14-09-2020 12:00:44

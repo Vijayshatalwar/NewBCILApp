@@ -1,0 +1,5 @@
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerScanner 2\bin\Debug\GreenplyScannerCommServer.exe.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerScanner 2\obj\Debug\GreenplyScannerCommServer.csprojResolveAssemblyReference.cache
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerScanner 2\obj\Debug\GreenplyScannerCommServer.frmMain.resources
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerScanner 2\obj\Debug\GreenplyScannerCommServer.Properties.Resources.resources
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerScanner 2\obj\Debug\GreenplyScannerCommServer.csproj.GenerateResource.Cache

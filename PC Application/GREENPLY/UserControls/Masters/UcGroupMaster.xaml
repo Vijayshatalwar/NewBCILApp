@@ -1,0 +1,186 @@
+﻿<UserControl x:Class="GREENPLY.UserControls.Masters.UcGroupMaster"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/xaml/behaviors" 
+              xmlns:cmd="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.WPF4" 
+               xmlns:i="clr-namespace:Microsoft.Xaml.Behaviors;assembly=Microsoft.Xaml.Behaviors"
+                 xmlns:wpfx="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit/extended"
+             mc:Ignorable="d" 
+            BorderThickness="2" Background="White" HorizontalContentAlignment="Stretch"  Height="700" Width="1320" Loaded="UserControl_Loaded"
+             KeyboardNavigation.TabNavigation="Local">
+  
+
+    <Border BorderThickness="2"  HorizontalAlignment="Stretch" >
+        <!--Main Grid-->
+        <StackPanel >
+            <Border  >
+
+                <Grid Background="Green" Width="1311">
+                    <Grid.ColumnDefinitions  >
+
+                        <ColumnDefinition Width="800"></ColumnDefinition>
+                        <ColumnDefinition Width="500"></ColumnDefinition>
+                        <ColumnDefinition Width="15*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock   HorizontalAlignment="Center" 
+                               VerticalAlignment="Center"  
+                               FontSize="18" 
+                               FontWeight="Bold"  
+                               TextWrapping="Wrap"   
+                               Height="33"   
+                               Foreground="White" 
+                               ForceCursor="True" 
+                               FontStyle="Normal" 
+                               Width="868"
+                               Text="GROUP MASTER"
+                               TextAlignment="Right" Margin="-193,1,125,-3">
+
+
+                    </TextBlock>
+                    <Button 
+                             Width="32" 
+                            Height="32"  
+                            HorizontalContentAlignment="Right" 
+                            Grid.Column="1" 
+                            Margin="0,-2,11,-3"
+                            Name="Close" 
+                            Click="Close_Click" 
+                            Background="Transparent"
+                            Cursor="Hand" HorizontalAlignment="Right" Grid.ColumnSpan="2">
+                        <StackPanel>
+                            <Image 
+                                Source="/Images/Exit.png" 
+                                Width="30"
+                                Height="30" 
+                                Grid.Column="1" 
+                                Margin="0,0,0,2" 
+                                HorizontalAlignment="Right"></Image>
+                        </StackPanel>
+                    </Button>
+                </Grid>
+
+            </Border>
+            <!--<tools:ValidationSummary x:Name="validationSummary" HorizontalAlignment="Left" Margin="20,0,0,0" />-->
+
+
+            <GroupBox Header="Enter Required Details For Group Master : " Foreground="Navy" FontSize="12" FontWeight="Bold" Name="gbEntry"   Height="auto" VerticalAlignment="Top" Margin="0,0,0,0">
+                <Grid Height="45">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="72"></ColumnDefinition>
+                        <ColumnDefinition Width="108" />
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+
+
+                        <!--<ColumnDefinition Width="170"></ColumnDefinition>
+                        <ColumnDefinition Width="354*" />-->
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <!--<RowDefinition Height="5"></RowDefinition>-->
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <!-- <RowDefinition Height="40"></RowDefinition>-->
+
+                    </Grid.RowDefinitions>
+                    <!--<TextBox Grid.Column="3" Grid.Row="0"  Background="White" Height="30" VerticalAlignment="Center"   Name="txtEnteredHrs" Foreground="Black" Margin="0"  Width="130"  TabIndex="1"
+                             PreviewTextInput="txtEnteredHrs_PreviewTextInput">
+
+                    </TextBox>-->
+                    <Label  
+                    Content="Group Name *:"  Name="lblGroupName" Grid.Column="2" Margin="0,9,0,7" />
+
+                    <TextBox Grid.Column="3"   MaxLength="50"  Name="txtGroupName" Background="White" Margin="5,8,5,5" CharacterCasing="Normal">
+                        
+                    </TextBox>
+                    <Label   
+                    Content="Description *:"  Name="lblPassword" Grid.Column="4" Margin="0,9,0,7" />
+                    <TextBox   Name="txtDescription" MaxLength="50"  Grid.Column="5" TextWrapping="Wrap" AcceptsReturn="True"   Background="White" Margin="5,8,0,5" Grid.ColumnSpan="2" Width="355" CharacterCasing="Normal" />
+                    
+                    <Label Content="GroupId" Grid.Column="6"   Name="lblGroupId" Visibility="Hidden"/>
+                </Grid>
+            </GroupBox>
+                <Border Margin="0,0,0,0" CornerRadius="0" BorderBrush="#FF295160" BorderThickness="1" >
+                    <Grid Margin="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="48" />
+                            <ColumnDefinition Width="135" />
+                            <ColumnDefinition Width="130" />
+                            <ColumnDefinition Width="126" />
+                            <ColumnDefinition Width="130" />
+                            <ColumnDefinition Width="132" />
+                            <ColumnDefinition Width="1" />
+                            <ColumnDefinition Width="22" />
+                            <ColumnDefinition Width="0" />
+                            <ColumnDefinition Width="448" />
+                        <ColumnDefinition Width="138*" />
+                    </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="48"/>
+                        </Grid.RowDefinitions>
+                    <!--<Button Content="Exit" IsCancel="False" Margin="104,5,48,3" Name="btnExit"  Width=" 110" Grid.Column="4" Click="btnExit_Click" Grid.ColumnSpan="2" />-->
+                    <Button Content="Save" Grid.Column="1" Grid.ColumnSpan="2" Height="35" IsCancel="False" Margin="76,6,79,7" Name="btnSave" Width=" 110" Click="btnSave_Click"/>
+                    <Button Content="Edit" Grid.Column="2" Grid.ColumnSpan="2" Height="35" IsCancel="False" Margin="65,6,81,7" Name="btnEdit" Width=" 110" Click="btnEdit_Click" />
+                    <Button Content="Delete" Grid.Column="3" Grid.ColumnSpan="2" Height="35" IsCancel="False" Margin="59,7,87,6" Name="btnDelete" Width=" 110" Click="btnDelete_Click" />
+                    <Button Content="Clear" Grid.Column="4" Grid.ColumnSpan="2" Height="35" IsCancel="False" Margin="57,7,95,6" Name="btnClear" Width=" 110" Click="btnClear_Click"/>
+                    <Label Content="Enter Group Name to Search :" FontSize="12" Foreground="Navy" Grid.Column="9" HorizontalAlignment="Left" Margin="73,12,0,13" Name="lblSearch" />
+                    <TextBox Background="White" Foreground="Black" Grid.Column="9" HorizontalAlignment="Right" Margin="0,11,78,10" MaxLength="50" Name="txtSearch" Width="258" Grid.ColumnSpan="2" TextChanged="txtSearch_TextChanged" />
+                    <CheckBox Content="" Grid.Column="1" Height="16" HorizontalAlignment="Left" Margin="33,17,0,0" Name="chkSelectAll" VerticalAlignment="Top" Width="15" Click="chkSelectAll_Click"/>
+                    <Label Content="Select All :" FontSize="12" Foreground="Navy" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,12,0,12" Name="label5" />
+                    <Label Content="No. of Records :" FontSize="12" Foreground="Navy" Grid.Column="5" Grid.ColumnSpan="5" HorizontalAlignment="Left" Margin="67,12,0,12" Name="label3" />
+                    <Label Content="***" FontSize="12" Foreground="Navy" Grid.Column="9" HorizontalAlignment="Left" Margin="1,12,0,12" Name="lblCount" Width="58" />
+                </Grid>
+                    <!--<CheckBox Content="CheckBox" Height="16" Name="checkBox1" />-->
+                </Border>
+
+            <!--Invoice Data-->
+            <Border BorderThickness="1" BorderBrush="Transparent"   CornerRadius="10" ></Border>
+
+            <Border BorderThickness="1" BorderBrush="Transparent"   CornerRadius="10" >
+
+                <ListView Name="lv" ItemsSource="{Binding Path=Collection}" FontFamily="Arial" SnapsToDevicePixels="True" 
+                          ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionMode="Multiple"
+                           Grid.ColumnSpan="2" MaxHeight="150"  >
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <EventSetter Event="MouseDoubleClick" Handler="lv_MouseDoubleClick" />
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            <Setter Property="Focusable" Value="False"></Setter>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.View>
+                        <GridView AllowsColumnReorder="False">
+                            <GridViewColumn Width="80" Header="Select">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox   IsChecked="{Binding IsValid}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Group Name" Width="400" DisplayMemberBinding="{Binding GroupName}"/>
+                            <GridViewColumn Header="Description" Width="600" DisplayMemberBinding="{Binding GroupDesc}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+            </Border>
+            <!--Invoice Data-->
+
+            <!--SAP Data-->
+
+            <Border BorderThickness="1" BorderBrush="Transparent" Margin="10,0" CornerRadius="10" ></Border>
+            <!--SAP Data-->
+        </StackPanel>
+    </Border>
+</UserControl>

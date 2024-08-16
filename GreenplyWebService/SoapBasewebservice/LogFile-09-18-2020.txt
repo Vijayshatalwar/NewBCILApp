@@ -1,0 +1,5 @@
+Load SAP Delivery Order -- No of Records Count - 2 at 18-09-2020 15:32:06
+Load Delivery Order Record No. - 0==>3020,HI12345,,,,,,16-09-2020
+Load SAP Delivery Order Data - Record 0 ==> HI12345 Saved successfully at 18-09-2020 15:32:13
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,16-09-2020
+Load SAP Delivery Order Data - Record 1 ==> HI12345_2 Saved successfully at 18-09-2020 15:32:17

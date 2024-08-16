@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GreenplyScannerCommServer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="QRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.45</Value>
+    </Setting>
+    <Setting Name="QRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">6101</Value>
+    </Setting>
+    <Setting Name="MoxaDeviceIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.18.94</Value>
+    </Setting>
+    <Setting Name="Moxa_Timeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="ServiceUserID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BARCODE</Value>
+    </Setting>
+    <Setting Name="ServiceUserPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">barcode@123</Value>
+    </Setting>
+    <Setting Name="StackQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.45</Value>
+    </Setting>
+    <Setting Name="StackQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+    <Setting Name="ScheduledTimeHR" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">14</Value>
+    </Setting>
+    <Setting Name="ScheduledTimeMM" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">17</Value>
+    </Setting>
+    <Setting Name="SegregationStackQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.105</Value>
+    </Setting>
+    <Setting Name="SegregationStackQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+    <Setting Name="PrintingSection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2000_PLY</Value>
+    </Setting>
+    <Setting Name="PrintingLocationType" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLANT</Value>
+    </Setting>
+    <Setting Name="ExistingQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.45</Value>
+    </Setting>
+    <Setting Name="ExistingQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+    <Setting Name="DispatchStackQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.105</Value>
+    </Setting>
+    <Setting Name="DispatchStackQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+    <Setting Name="WHDispatchStackQRCodePrinterIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.100.105</Value>
+    </Setting>
+    <Setting Name="WHDispatchStackQRCodePrinterPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9100</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

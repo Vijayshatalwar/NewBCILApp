@@ -1,0 +1,64 @@
+﻿<Window x:Class="GREENPLY.WinDbSetting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       Width="620" Height="450" WindowStyle="None" Background="{x:Null}" Foreground="#014051" ShowInTaskbar="True"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"  AllowsTransparency="True"
+        xmlns:d="http://schemas.microsoft.com/xaml/behaviors" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Loaded="Window_Loaded">
+
+
+    <Grid Height="400" Width="600" >
+        <Border  CornerRadius="30,30,30,30" >
+            <Border.Background >
+                <RadialGradientBrush >
+                    <GradientStop Color="Green" Offset="1"/>
+                    <GradientStop Color="Yellow" Offset="0"/>
+                </RadialGradientBrush>
+            </Border.Background>
+            
+        </Border>
+        <Grid Width="600" Margin="-8,0,8,86" Height="230" VerticalAlignment="Bottom">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="34" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="54" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="49*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="150" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Opacity="1" FontFamily="Arial" FontSize="20" FontStretch="Normal" FontWeight="Light" TextWrapping="Wrap" Height="27" VerticalAlignment="Top" TextAlignment="Center" Margin="21,2,-5,0" Grid.ColumnSpan="4">
+                    <Run Foreground="White" Text="GreenPly - Database Configurations Window" />
+                  <TextBlock.BitmapEffect>
+                        <DropShadowBitmapEffect Color="Black" Direction="320" ShadowDepth="15" Opacity=".5" Softness="9" />
+                    </TextBlock.BitmapEffect></TextBlock>
+            <Label Grid.Row="1" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="bold" Content="Server Name:" Name="lblcountrycode" Margin="0,9,22,3" />
+            <ComboBox Width="170" Grid.Row="1" IsEditable="True" HorizontalAlignment="Left" ItemsSource="{Binding}" Name="cmbServerName" Margin="128,9,0,34" Grid.RowSpan="2" MouseEnter="cmbServer_MouseEnter" Grid.ColumnSpan="2"></ComboBox>
+            <!--<TextBox Grid.Column="1" Width="120" Grid.Row="1" HorizontalAlignment="Left"  Name="txtServerName" Margin="0,9,0,34" Grid.RowSpan="2">-->
+            <!--</TextBox>-->
+            <Label Grid.Row="2" Foreground="White" VerticalAlignment="Center" FontWeight="bold" HorizontalAlignment="Left" Grid.Column="2" Content="Database Name:" Name="lbldbname" Margin="0,9,0,3" />
+            <!--<TextBox Grid.Row="2" Width="120"  Grid.Column="2"   Name="txtDbName" Grid.ColumnSpan="2" Margin="102,7,78,1">-->
+            <ComboBox Grid.Row="2" Grid.Column="2" IsEditable="True" ItemsSource="{Binding}" Name="cmbDbName" Grid.ColumnSpan="2" Margin="102,7,30,1" MouseEnter="cmbDbName_MouseEnter"></ComboBox>
+            <!--</TextBox>-->
+            <Label Grid.Row="1" Foreground="White" HorizontalAlignment="Left" Grid.Column="2" VerticalAlignment="Center" FontWeight="bold" Content="User Name:" Name="lblusername" Margin="26,13,0,34" Grid.RowSpan="2" />
+            <TextBox Grid.Row="1" Width="170" Grid.Column="2" HorizontalAlignment="Left" Name="txtUserName" Margin="102,9,0,34" Grid.ColumnSpan="2" Grid.RowSpan="2"></TextBox>
+            <Label Grid.Row="2" Foreground="White" HorizontalAlignment="left" VerticalAlignment="Center" FontWeight="bold" Content="Password:" Name="lblpassword" Margin="57,11,0,1" />
+            <PasswordBox Grid.Row="2" Name="txtPwd" Margin="128,7,2,1" Grid.ColumnSpan="2"></PasswordBox>
+            <Button Content="SAVE" Foreground="White" Background="Transparent" FontWeight="Bold" Height="35" Grid.Row="4" Width="110" Name="btnSave" Click="btnSave_Click" Margin="0,18,30,41" Grid.Column="1" Grid.RowSpan="2" />
+            <Button Grid.Column="1" Foreground="White" Background="Transparent" FontWeight="Bold" Height="35" Grid.Row="4" Width="110" Content="CLEAR" IsCancel="False" x:Name="btnClear" Click="btnClear_Click" Margin="126,18,54,41" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+            <Button Grid.Column="2" Foreground="White" Background="Transparent" FontWeight="Bold" Height="35" Grid.Row="4" Width="110" Content="EXIT" IsCancel="False" x:Name="btn1Exit" Click="btn1Exit_Click" Margin="102,18,78,41" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+            <Label Content="Printer :" FontWeight="bold" Foreground="White" HorizontalAlignment="Right" Name="label1" VerticalAlignment="Center" Grid.Row="3" Margin="0,4,22,6" />
+            <TextBox HorizontalAlignment="Left" Margin="128,5,0,2" Name="txtPrinter" Width="170" Grid.Row="3" Grid.ColumnSpan="2" />
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,206 @@
+Load PLan1
+Load PLan=>INSERT INTO [dbo].[LoadPlanDtls] 
+ ([SerialNo],[Client],[LoadNo],[Year],[Month],[Purpose],[Indent],[SequenceNumber],[PressNumber],[PlannedOrder] 
+,[PressVersion],[PartyName],[MaterialNumber],[SheetType],[Resize],[Design],[FinishType],[Thickness],[Quantity] 
+,[OpenQuantity],[DayLight],[SFLMaterial],[SFLQty],[Instruction],[Brand],[Shift],[NoOfPlates],[PlateInspector] ,[Size] 
+,[Position],[GeneralFlag],[ConfirmDate],[ChangeTime],[ChangeDate],[ChangeUser],[UserName],[UserTime] , [LoadDate]) 
+ VALUES(@SQNo, @Client, @LoadNo, @Year, @Month, @Purpose, @Indent, @SerialNo, @PressNumber, @PlannedOrder 
+ , @PressVersion, @PartyName, @MaterialNo, @SheetType, @Resize, @Design, @FinishType, @Thickness, @Qty 
+, @OpenQty, @DayLight, @SFLMaterial, @SFLQty, @Instruction, @Brand, @Shift, @NoofPlates, @PlateInspector, @Size 
+ , @Position, @GeneralFlag,@Confirmdate,@ChangeTime,@ChangeDate,@ChangeUser,@UserName,@UserTime ,@Date) 
+
+Load PLan1
+Load PLan=>INSERT INTO [dbo].[LoadPlanDtls] 
+ ([SerialNo],[Client],[LoadNo],[Year],[Month],[Purpose],[Indent],[SequenceNumber],[PressNumber],[PlannedOrder] 
+,[PressVersion],[PartyName],[MaterialNumber],[SheetType],[Resize],[Design],[FinishType],[Thickness],[Quantity] 
+,[OpenQuantity],[DayLight],[SFLMaterial],[SFLQty],[Instruction],[Brand],[Shift],[NoOfPlates],[PlateInspector] ,[Size] 
+,[Position],[GeneralFlag],[ConfirmDate],[ChangeTime],[ChangeDate],[ChangeUser],[UserName],[UserTime] , [LoadDate]) 
+ VALUES(@SQNo, @Client, @LoadNo, @Year, @Month, @Purpose, @Indent, @SerialNo, @PressNumber, @PlannedOrder 
+ , @PressVersion, @PartyName, @MaterialNo, @SheetType, @Resize, @Design, @FinishType, @Thickness, @Qty 
+, @OpenQty, @DayLight, @SFLMaterial, @SFLQty, @Instruction, @Brand, @Shift, @NoofPlates, @PlateInspector, @Size 
+ , @Position, @GeneralFlag,@Confirmdate,@ChangeTime,@ChangeDate,@ChangeUser,@UserName,@UserTime ,@Date) 
+
+Load PLan1
+Load PLan=>INSERT INTO [dbo].[LoadPlanDtls] 
+ ([SerialNo],[Client],[LoadNo],[Year],[Month],[Purpose],[Indent],[SequenceNumber],[PressNumber],[PlannedOrder] 
+,[PressVersion],[PartyName],[MaterialNumber],[SheetType],[Resize],[Design],[FinishType],[Thickness],[Quantity] 
+,[OpenQuantity],[DayLight],[SFLMaterial],[SFLQty],[Instruction],[Brand],[Shift],[NoOfPlates],[PlateInspector] ,[Size] 
+,[Position],[GeneralFlag],[ConfirmDate],[ChangeTime],[ChangeDate],[ChangeUser],[UserName],[UserTime] , [LoadDate]) 
+ VALUES(@SQNo, @Client, @LoadNo, @Year, @Month, @Purpose, @Indent, @SerialNo, @PressNumber, @PlannedOrder 
+ , @PressVersion, @PartyName, @MaterialNo, @SheetType, @Resize, @Design, @FinishType, @Thickness, @Qty 
+, @OpenQty, @DayLight, @SFLMaterial, @SFLQty, @Instruction, @Brand, @Shift, @NoofPlates, @PlateInspector, @Size 
+ , @Position, @GeneralFlag,@Confirmdate,@ChangeTime,@ChangeDate,@ChangeUser,@UserName,@UserTime ,@Date) 
+
+Transaction State Open
+IsExists Connection State 1 => Closed at 11-09-2020 12:26:11
+IsExists Connection State 3 => Closed at 11-09-2020 12:26:17
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode
+ at 11-09-2020 12:26:20
+Transaction State Open
+IsExists Connection State 1 => Closed at 11-09-2020 12:32:56
+IsExists Connection State 3 => Closed at 11-09-2020 12:33:02
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode
+ at 11-09-2020 12:33:09
+Return => false at 11-09-2020 12:33:17
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([PlantCode],[Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @PlantCode, @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 11-09-2020 12:33:22
+Transaction State Open
+IsExists Connection State 1 => Closed at 11-09-2020 12:33:52
+IsExists Connection State 3 => Closed at 11-09-2020 12:33:54
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode
+ at 11-09-2020 12:33:56
+Transaction State Open
+IsExists Connection State 1 => Closed at 11-09-2020 14:40:54
+IsExists Connection State 3 => Closed at 11-09-2020 14:40:54
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode
+ at 11-09-2020 14:40:54
+Transaction State Open
+IsExists Connection State 1 => Open at 11-09-2020 15:25:08
+IsExists Connection State 3 => Open at 11-09-2020 15:25:11
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode
+ at 11-09-2020 15:25:16
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 15:54:46
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([PlantCode],[Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @PlantCode, @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 11-09-2020 15:55:04
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:00:47
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([PlantCode],[Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @PlantCode, @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 11-09-2020 16:00:47
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:00:52
+Load Material ==> System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at GreenplyWebService.ClsMatMaster.ExistSQL(SqlConnection con2) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\ClsMatMaster.cs:line 266
+   at GreenplyWebService.ClsMatMaster.InsertMaterialMasterData(SqlTransaction transaction) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\ClsMatMaster.cs:line 300
+ClientConnectionId:22686204-0eff-45d0-8b77-689552ce6b41
+Error Number:-2,State:0,Class:11 at 11-09-2020 16:01:22
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:09:37
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([PlantCode],[Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @PlantCode, @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 11-09-2020 16:09:38
+Load Material ==> System.InvalidOperationException: ExecuteNonQuery requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at GreenplyWebService.ClsMatMaster.InsertMaterialMasterData(SqlTransaction transaction) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\ClsMatMaster.cs:line 310 at 11-09-2020 16:09:41
+Load Material ==> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GreenplyWebService.ClsMatMaster.InsertMaterialMasterData(SqlTransaction transaction) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\ClsMatMaster.cs:line 275 at 11-09-2020 16:09:55
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:11:59
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([PlantCode],[Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @PlantCode, @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 11-09-2020 16:11:59
+Load Material ==> System.InvalidOperationException: ExecuteNonQuery requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at GreenplyWebService.ClsMatMaster.InsertMaterialMasterData(SqlTransaction transaction) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\ClsMatMaster.cs:line 310 at 11-09-2020 16:11:59
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:17:13
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([PlantCode],[Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @PlantCode, @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 11-09-2020 16:17:14
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:17:48
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:19:35
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([PlantCode],[Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @PlantCode, @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 11-09-2020 16:19:35
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:19:49
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:23:37
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([PlantCode],[Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @PlantCode, @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 11-09-2020 16:23:41
+Load Material ==> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GreenplyWebService.ClsMatMaster.InsertMaterialMasterData(SqlTransaction transaction) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\ClsMatMaster.cs:line 275 at 11-09-2020 16:24:12
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:25:54
+Update SAP Material Master Query =>  UPDATE [dbo].[mMaterialMaster] 
+ SET [Product] = @Product, [MatDescription] = @MatDesc, [Thickness] = @MatThickness, [Size] =  @MatSize, [Grade] = @MatGrade,
+ [GradeDescription] = @GradeDesc, [Category] = @Category, [CategoryDescription] = @CategoryDesc,
+ [MatGroup] = @MatGroup, [MatGroupDescription] = @MatGroupDesc, [DesignNo] = @DesignNo, [DesignDescription] = @DesignDesc,
+ [FinishCode] = @FinishCode, [FinishDescription] = @FinishDesc, [UOM] = @UOM, [UpdatedOn] = GETDATE(), [UpdatedBy] = 'WebService'
+ WHERE PlantCode = @PlantCode AND MatCode = @MatCode 
+ at 11-09-2020 16:26:04
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:26:27
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:28:09
+Update SAP Material Master Query =>  UPDATE [dbo].[mMaterialMaster] 
+ SET [Product] = @Product, [MatDescription] = @MatDesc, [Thickness] = @MatThickness, [Size] =  @MatSize, [Grade] = @MatGrade,
+ [GradeDescription] = @GradeDesc, [Category] = @Category, [CategoryDescription] = @CategoryDesc,
+ [MatGroup] = @MatGroup, [MatGroupDescription] = @MatGroupDesc, [DesignNo] = @DesignNo, [DesignDescription] = @DesignDesc,
+ [FinishCode] = @FinishCode, [FinishDescription] = @FinishDesc, [UOM] = @UOM, [UpdatedOn] = GETDATE(), [UpdatedBy] = 'WebService'
+ WHERE PlantCode = @PlantCode AND MatCode = @MatCode 
+ at 11-09-2020 16:28:13
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:28:32
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:32:58
+Update SAP Material Master Query =>  UPDATE [dbo].[mMaterialMaster] 
+ SET [Product] = @Product, [MatDescription] = @MatDesc, [Thickness] = @MatThickness, [Size] =  @MatSize, [Grade] = @MatGrade,
+ [GradeDescription] = @GradeDesc, [Category] = @Category, [CategoryDescription] = @CategoryDesc,
+ [MatGroup] = @MatGroup, [MatGroupDescription] = @MatGroupDesc, [DesignNo] = @DesignNo, [DesignDescription] = @DesignDesc,
+ [FinishCode] = @FinishCode, [FinishDescription] = @FinishDesc, [UOM] = @UOM, [UpdatedOn] = GETDATE(), [UpdatedBy] = 'WebService'
+ WHERE PlantCode = @PlantCode AND MatCode = @MatCode 
+ at 11-09-2020 16:33:08
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 16:33:34
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 17:17:53
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([PlantCode],[Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @PlantCode, @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 11-09-2020 17:18:01
+Transaction State Open
+Is Material Code exist query => SELECT Count(1) FROM [dbo].[mMaterialMaster] WHERE PlantCode = @PlantCode AND MatCode = @MatCode at 11-09-2020 17:18:13
+Insert SAP Material Master Query=>  INSERT INTO [dbo].[mMaterialMaster] 
+ ([PlantCode],[Product],[MatCode],[MatDescription],[Thickness],[Size],[Grade],[GradeDescription],[Category],[CategoryDescription]
+, [MatGroup],[MatGroupDescription],[DesignNo],[DesignDescription],[FinishCode],[FinishDescription],[UOM], [CreatedOn], [CreatedBy] )
+ VALUES ( @PlantCode, @Product, @MatCode, @MatDesc, @MatThickness, @MatSize, @MatGrade, @GradeDesc, @Category, @CategoryDesc,
+ @MatGroup, @MatGroupDesc, @DesignNo, @DesignDesc, @FinishCode, @FinishDesc, @UOM, GETDATE(), 'WebService')
+ at 11-09-2020 17:18:18

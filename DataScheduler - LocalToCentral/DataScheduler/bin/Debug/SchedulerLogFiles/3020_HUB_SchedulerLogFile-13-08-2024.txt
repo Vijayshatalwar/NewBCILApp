@@ -1,0 +1,12 @@
+(Version: 1.1.0) : 13-08-2024 12:20:03 (Info) - DataScheduler : FormLoad => 
+(Version: 1.1.0) : 13-08-2024 12:20:03 Data Schedular => Central connection Data Source=DESKTOP-P58BTS5\SQL2019;Initial Catalog=GREENPLY_QRCODE;User ID=sa;Password=bcil@123;connection timeout=0
+(Version: 1.1.0) : 13-08-2024 12:20:03 Scheduler => Loading   Successfull...
+(Version: 1.1.0) : 13-08-2024 12:20:10 Data Scheduler => Sending L2C TransactionalData : sending started
+(Version: 1.1.0) : 13-08-2024 12:21:08 (Info) - DataScheduler : FormLoad => 
+(Version: 1.1.0) : 13-08-2024 12:21:08 Data Schedular => Central connection Data Source=DESKTOP-P58BTS5\SQL2019;Initial Catalog=GREENPLY_QRCODE;User ID=sa;Password=bcil@123;connection timeout=0
+(Version: 1.1.0) : 13-08-2024 12:21:08 Scheduler => Loading   Successfull...
+(Version: 1.1.0) : 13-08-2024 12:21:17 Data Scheduler => Sending L2C TransactionalData : sending started
+(Version: 1.1.0) : 13-08-2024 17:16:33 (Info) - DataScheduler : FormLoad => 
+(Version: 1.1.0) : 13-08-2024 17:16:33 Data Schedular => Central connection Data Source=DESKTOP-P58BTS5\SQL2019;Initial Catalog=GREENPLY_QRCODE;User ID=sa;Password=bcil@123;connection timeout=0
+(Version: 1.1.0) : 13-08-2024 17:16:33 Scheduler => Loading   Successfull...
+(Version: 1.1.0) : 13-08-2024 17:16:54 Data Scheduler => Sending L2C TransactionalData : sending started

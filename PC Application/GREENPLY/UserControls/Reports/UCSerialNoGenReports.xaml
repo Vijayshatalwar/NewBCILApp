@@ -1,0 +1,119 @@
+﻿<UserControl x:Class="GREENPLY.UserControls.Reports.UCSerialNoGenReports"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/xaml/behaviors" 
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"             
+             xmlns:rv="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.ReportViewer.WinForms"  
+             mc:Ignorable="d" 
+              BorderThickness="2" Background="#FFBCBDBE" HorizontalContentAlignment="Stretch"  Height="629" Width="1320" Loaded="UserControl_Loaded"
+             KeyboardNavigation.TabNavigation="Local">
+    <Border BorderThickness="2"  HorizontalAlignment="Stretch" >
+        <!--Main Grid-->
+        <StackPanel Background="White" >
+            <Border Width="1313">
+
+                <Grid Background="Green" Width="1317">
+                    <Grid.ColumnDefinitions  >
+                        <ColumnDefinition Width="800"></ColumnDefinition>
+                        <ColumnDefinition Width="500"></ColumnDefinition>
+                        <ColumnDefinition Width="17*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Button 
+                             Width="32" 
+                            Height="32"  
+                            HorizontalContentAlignment="Right" 
+                            Grid.Column="1" 
+                            Margin="470,-2,0,-3"
+                            Name="Close" 
+                            Click="Close_Click" 
+                            Background="Transparent"
+                            Cursor="Hand"
+                            >
+                        <StackPanel>
+                            <Image Source="/Images/Exit.png" Width="30" Height="30" Grid.Column="1" Margin="0,0,0,2" HorizontalAlignment="Right"></Image>
+                        </StackPanel>
+                    </Button>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontWeight="Bold" TextWrapping="Wrap" Height="28" Foreground="White" 
+                               ForceCursor="True" FontStyle="Normal" Width="382" Text="SERIAL NO. GENERATION REPORT" TextAlignment="Right" Margin="413,2,5,1">
+                    </TextBlock>
+                </Grid>
+            </Border>
+
+
+
+            <Border BorderThickness="1" BorderBrush="Transparent" Margin="0,0" CornerRadius="10" Width="1308">
+                <Grid Height="40" Width="1311">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200" />
+                        <ColumnDefinition Width="254*"/>
+                        <ColumnDefinition Width="248*" />
+                        <ColumnDefinition Width="126*" />
+                        <ColumnDefinition Width="483*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="37"/>
+                        <RowDefinition Height="0" />
+                        <RowDefinition Height="3*" />
+                    </Grid.RowDefinitions>
+                    <!--<ComboBox  Text="All Item" ItemsSource="{Binding}"  Name="cmbLocation" Height="30" Grid.Column="1"  HorizontalAlignment="Left"   VerticalAlignment="Top" Width="180" IsEditable="True" IsReadOnly="True">
+                        <ComboBox.Style>
+                            <Style>
+                                <EventSetter Event="TextBoxBase.TextChanged" Handler="cmbLocation_TextChanged" />
+                            </Style>
+                        </ComboBox.Style>
+
+                    </ComboBox>-->
+                    <Label Content="From Date : " Margin="0,8,105,6" Name="label1" />
+                    <DatePicker Grid.RowSpan="2" Height="25" HorizontalAlignment="Left" Margin="102,7,0,0" Name="dtpFromdate" VerticalAlignment="Top" Width="176" Grid.ColumnSpan="2"  />
+                    <Label Content="To Date : " Margin="0,8,80,6" Name="label2" Grid.Column="1" />
+                    <DatePicker Grid.ColumnSpan="2" Height="25" HorizontalAlignment="Left" Margin="179,7,0,0" Name="dtpTodate" VerticalAlignment="Top" Width="176" Grid.Column="1" />
+                    <Button Content="Get Details" Grid.Column="2" Height="32" HorizontalAlignment="Left" Margin="135,4,0,0" Name="btngetDetails" VerticalAlignment="Top" Width="110" Grid.Row="0" Click="btngetDetails_Click" Grid.ColumnSpan="2"/>
+                    <Button Content="Clear" Grid.Column="4" Height="32" HorizontalAlignment="Left" Margin="10,4,0,0" Name="btnClear" VerticalAlignment="Top" Width="110" Grid.Row="0" Click="btnClear_Click" />
+                    <Button Content="Export" Grid.Column="3" Height="32" HorizontalAlignment="Left" Margin="10,4,0,0" Name="btnExport" VerticalAlignment="Top" Width="110" Grid.Row="0" Click="btnExport_Click" />
+                </Grid>
+            </Border>
+
+            <Border BorderThickness="1" BorderBrush="Transparent"   CornerRadius="10" ></Border>
+            <Border BorderThickness="1" BorderBrush="Transparent" Margin="0,0" CornerRadius="0" >
+                <StackPanel ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False" >
+                    <DataGrid HorizontalAlignment="Left" Name="dgShowData" ItemsSource="{Binding Path=Collection}"  ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                              Grid.ColumnSpan="2" Height="491" SelectionMode="Single" Width="1308" RowHeight="25" AutoGenerateColumns="False" 
+                              Background="White" RowDetailsVisibilityMode="VisibleWhenSelected" 
+                              CanUserReorderColumns="False" CanUserAddRows="False" CanUserResizeColumns="False" 
+                              CanUserResizeRows="False" CanUserSortColumns="False" GridLinesVisibility="None">
+                        <DataGrid.Columns>
+                            <!--<DataGridCheckBoxColumn Header=" Select" Width="49" CanUserSort="False"  Binding="{Binding IsSelected,  RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type DataGridRow}}}"></DataGridCheckBoxColumn>-->
+                            <DataGridTextColumn Header="PlantCode" Width="100" Binding="{Binding PlantCode}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Material Code" Width="150" Binding="{Binding MaterialCode}" ></DataGridTextColumn>
+                            <DataGridTextColumn Header="Material Description" Width="300" Binding="{Binding MaterialDescription}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="QRCode" Width="250" Binding="{Binding QRCode}" ></DataGridTextColumn>
+                            <DataGridTextColumn Header="Stack QRCode" Width="150" Binding="{Binding StackQRCode}" ></DataGridTextColumn>
+                            <DataGridTextColumn Header="Serial No." Width="150" Binding="{Binding SerialNo}" ></DataGridTextColumn>
+                            <DataGridTextColumn Header="Quantity" Width="90" Binding="{Binding Quantity}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Posting Date" Width="120" Binding="{Binding CreatedOn}"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                        <DataGrid.ItemContainerStyle>
+                            <Style TargetType="DataGridRow">
+                                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                <Setter Property="Control.Focusable" Value="False"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#001f72" />
+                                        <Setter Property="Foreground" Value="White" />
+                                        <Setter Property="FontSize" Value="14"></Setter>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGrid.ItemContainerStyle>
+                    </DataGrid>
+
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Border>
+</UserControl>

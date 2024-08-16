@@ -1,0 +1,19 @@
+Load SAP Delivery Order -- No of Records Count - 2 at 21-09-2020 13:29:49
+Load Delivery Order Record No. - 0==>3020,HI12345,,,,,,11-09-2020
+Load SAP Delivery Order Data - Record 0 ==> HI12345 Saved successfully at 21-09-2020 13:30:02
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,12-09-2020
+Load SAP Delivery Order Data - Record 1 ==> HI12345_2 Saved successfully at 21-09-2020 13:30:04
+Load SAP Delivery Order -- No of Records Count - 2 at 21-09-2020 13:35:57
+Load Delivery Order Record No. - 0==>3020,HI12345,,,,,,21-09-2020
+Load SAP Delivery Order Data - Record 0 ==> HI12345 Saved successfully at 21-09-2020 13:36:09
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,20-09-2020
+Load SAP Delivery Order Data - Record 1 ==> HI12345_2 Saved successfully at 21-09-2020 13:36:12
+Load SAP Delivery Order -- No of Records Count - 2 at 21-09-2020 16:01:18
+Load Delivery Order Record No. - 0==>3020,HI12345,,,,,,01-09-2020
+Load SAP Delivery Order -- No of Records Count - 2 at 21-09-2020 16:03:38
+Load Delivery Order Record No. - 0==>3020,HI12345,,,,,,01-09-2020
+Load SAP Delivery Order -- No of Records Count - 2 at 21-09-2020 16:04:25
+Load Delivery Order Record No. - 0==>3020,HI12345,,,,,,01-09-2020
+Load SAP Delivery Order Data - Record 0 ==> HI12345 Saved successfully at 21-09-2020 16:04:43
+Load Delivery Order Record No. - 1==>30201,HI12345_2,,,,,,02-09-2020
+Load SAP Delivery Order Data - Record 1 ==> HI12345_2 Saved successfully at 21-09-2020 16:04:46

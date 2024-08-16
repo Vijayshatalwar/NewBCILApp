@@ -1,0 +1,87 @@
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\bin\Debug\GreenplyCommServer.exe.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\bin\Debug\GreenplyCommServer.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\bin\Debug\GreenplyCommServer.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\bin\Debug\BCILCommServer.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\bin\Debug\Newtonsoft.Json.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\obj\Debug\GreenplyCommServer.frmMain.resources
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\obj\Debug\GreenplyCommServer.Properties.Resources.resources
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\obj\Debug\GreenplyCommServer.csproj.GenerateResource.Cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\obj\Debug\GreenplyCommServer.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\obj\Debug\GreenplyCommServer.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServer\obj\Debug\GreenplyCommServer.csprojResolveAssemblyReference.cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerScanner\bin\Debug\GreenplyCommServer.exe.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerScanner\obj\Debug\GreenplyCommServer.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerScanner\obj\Debug\GreenplyCommServer.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerScanner\bin\Debug\GreenplyCommServer.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerScanner\bin\Debug\GreenplyCommServer.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerScanner\bin\Debug\Newtonsoft.Json.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerScanner\obj\Debug\GreenplyCommServer.csprojResolveAssemblyReference.cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerScanner\obj\Debug\GreenplyCommServer.frmMain.resources
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerScanner\obj\Debug\GreenplyCommServer.Properties.Resources.resources
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerScanner\obj\Debug\GreenplyCommServer.csproj.GenerateResource.Cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\bin\Debug\Newtonsoft.Json.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csprojResolveAssemblyReference.cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.frmMain.resources
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.Properties.Resources.resources
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csproj.GenerateResource.Cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.pdb
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\bin\Debug\BCILCommServer.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\bin\Debug\Newtonsoft.Json.dll
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csprojResolveAssemblyReference.cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.frmMain.resources
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.Properties.Resources.resources
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csproj.GenerateResource.Cache
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\bin\Debug\Newtonsoft.Json.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csprojResolveAssemblyReference.cache
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.frmMain.resources
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.Properties.Resources.resources
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\CommserverFinal\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csproj.GenerateResource.Cache
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\bin\Debug\Newtonsoft.Json.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csprojResolveAssemblyReference.cache
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.frmMain.resources
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.Properties.Resources.resources
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csproj.GenerateResource.Cache
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\bin\Debug\BCILCommServer.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\bin\Debug\BCILLogger.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\PC&CommsrverVS2015\GreenplyCommServerConveyor\bin\Debug\ServerSock.dll
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe.config
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.exe
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.pdb
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.pdb
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\bin\Debug\Newtonsoft.Json.dll
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csprojResolveAssemblyReference.cache
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.frmMain.resources
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.Properties.Resources.resources
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csproj.GenerateResource.Cache
+F:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\bin\Debug\ClientSocket.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe.config
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\bin\Debug\GreenplyCommServer.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\bin\Debug\ClientSocket.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\bin\Debug\Newtonsoft.Json.dll
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.frmMain.resources
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.Properties.Resources.resources
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csproj.GenerateResource.Cache
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.exe
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.pdb
+D:\Krish\Krish Greenply\GREENPLY - Track & Trace\VS2015\GreenplyCommServerConveyor\obj\Debug\GreenplyCommServer.csprojResolveAssemblyReference.cache

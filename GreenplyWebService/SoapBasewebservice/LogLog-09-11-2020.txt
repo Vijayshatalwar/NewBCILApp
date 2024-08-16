@@ -1,0 +1,52 @@
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 12:25:14
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 12:32:13
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 14:40:48
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 15:24:37
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 15:54:03
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 16:00:43
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 16:09:33
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load Material 1 ==> System.InvalidOperationException: This SqlTransaction has completed; it is no longer usable.
+   at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at GreenplyWebService.ClsMatMaster.InsertMaterialMasterData(SqlTransaction transaction) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\ClsMatMaster.cs:line 318
+   at GreenplyWebService.SoapServices.InsertSAPMatMasterData(ListMatMasterDetails obj, String UserName, String Pswd) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\GreenplyWebService.asmx.cs:line 138 at 11-09-2020 16:09:55
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 16:11:50
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 16:17:06
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 16:19:27
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 16:23:31
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load Material 1 ==> System.InvalidOperationException: This SqlTransaction has completed; it is no longer usable.
+   at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at GreenplyWebService.ClsMatMaster.InsertMaterialMasterData(SqlTransaction transaction) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\ClsMatMaster.cs:line 319
+   at GreenplyWebService.SoapServices.InsertSAPMatMasterData(ListMatMasterDetails obj, String UserName, String Pswd) in D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\GreenplyWebService\SoapBasewebservice\GreenplyWebService.asmx.cs:line 138 at 11-09-2020 16:24:15
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 16:25:50
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 16:28:00
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 16:32:51
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,
+Load SAP Material Master -- No of Records Count - 2 at 11-09-2020 17:17:36
+Load Material Master 0==>3020,,HI12345,,,,,,,,,,,,,,
+Load Material Master 1==>30201,,HI12345_2,,,,,,,,,,,,,,

@@ -1,0 +1,86 @@
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe.config
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.pdb
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\bin\x86\Debug\BCILCommServer.dll
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\bin\x86\Debug\BcilLib.dll
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\bin\x86\Debug\BCILLogger.dll
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\bin\x86\Debug\Newtonsoft.Json.dll
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\bin\x86\Debug\ServerSock.dll
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.frmMain.resources
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.Properties.Resources.resources
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.exe
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.pdb
+E:\D Drive\Live Projects\ROTOMOTIVE\Rotomotive CommServer\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Share\Krish Rotomotive\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe.config
+E:\Share\Krish Rotomotive\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.exe
+E:\Share\Krish Rotomotive\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.pdb
+E:\Share\Krish Rotomotive\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe
+E:\Share\Krish Rotomotive\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.pdb
+E:\Share\Krish Rotomotive\Rotomotive CommServer\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Share\Krish Rotomotive\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.csprojResolveAssemblyReference.cache
+E:\Share\Krish Rotomotive\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.frmMain.resources
+E:\Share\Krish Rotomotive\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.Properties.Resources.resources
+E:\Share\Krish Rotomotive\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.csproj.GenerateResource.Cache
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.1\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe.config
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.1\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.exe
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.1\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.pdb
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.2\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe.config
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.exe
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.pdb
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.2\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.2\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.pdb
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.2\Rotomotive CommServer\bin\x86\Debug\Newtonsoft.Json.dll
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.frmMain.resources
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.Properties.Resources.resources
+E:\Share\Krish Rotomotive\V1.2\ROTOMOTIVE V1.2\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe.config
+E:\Share\Krish Rotomotive\V1.2\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.exe
+E:\Share\Krish Rotomotive\V1.2\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.pdb
+E:\Share\Krish Rotomotive\V1.2\ROTOMOTIVE V1.2\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe
+E:\Share\Krish Rotomotive\V1.2\ROTOMOTIVE V1.2\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.pdb
+E:\Share\Krish Rotomotive\V1.2\ROTOMOTIVE V1.2\Rotomotive CommServer\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Share\Krish Rotomotive\V1.2\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.csprojResolveAssemblyReference.cache
+E:\Share\Krish Rotomotive\V1.2\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.frmMain.resources
+E:\Share\Krish Rotomotive\V1.2\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.Properties.Resources.resources
+E:\Share\Krish Rotomotive\V1.2\ROTOMOTIVE V1.2\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.csproj.GenerateResource.Cache
+C:\Users\krish.kashyap\Desktop\Roto_Live\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe.config
+C:\Users\krish.kashyap\Desktop\Roto_Live\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.exe
+C:\Users\krish.kashyap\Desktop\Roto_Live\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.pdb
+C:\Users\krish.kashyap\Desktop\Roto_Live\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe
+C:\Users\krish.kashyap\Desktop\Roto_Live\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.pdb
+C:\Users\krish.kashyap\Desktop\Roto_Live\Rotomotive CommServer\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\krish.kashyap\Desktop\Roto_Live\Rotomotive CommServer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\krish.kashyap\Desktop\Roto_Live\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.frmMain.resources
+C:\Users\krish.kashyap\Desktop\Roto_Live\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.Properties.Resources.resources
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe.config
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.exe
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.pdb
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.pdb
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Newtonsoft.Json.dll
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.frmMain.resources
+E:\D Drive\Live Projects\ROTOMOTIVE\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.Properties.Resources.resources
+E:\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe.config
+E:\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.exe
+E:\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.pdb
+E:\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe
+E:\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.pdb
+E:\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.csprojResolveAssemblyReference.cache
+E:\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.frmMain.resources
+E:\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.Properties.Resources.resources
+E:\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.csproj.GenerateResource.Cache
+D:\Krish\BCIL\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe.config
+D:\Krish\BCIL\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.exe
+D:\Krish\BCIL\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.pdb
+D:\Krish\BCIL\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.exe
+D:\Krish\BCIL\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Rotomotive_CommServer.pdb
+D:\Krish\BCIL\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Krish\BCIL\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.csprojResolveAssemblyReference.cache
+D:\Krish\BCIL\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.frmMain.resources
+D:\Krish\BCIL\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotive_CommServer.Properties.Resources.resources
+D:\Krish\BCIL\Share\Krish Rotomotive\ROTOMOTIVE V1.3\Rotomotive CommServer\obj\x86\Debug\Rotomotivecommserver.csproj.GenerateResource.Cache
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommServer\bin\x86\Debug\Rotomotive_CommServer.exe.config
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommServer\obj\x86\Debug\Rotomotive_CommServer.exe
+D:\Krish\BCIL\Share\Krish\GREENPLY - Track & Trace\CommServer\obj\x86\Debug\Rotomotive_CommServer.pdb
